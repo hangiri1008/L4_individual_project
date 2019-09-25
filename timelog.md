@@ -1,9 +1,9 @@
 # Timelog
 
-* PROJECT NAME
-* YOUR NAME
-* STUDENT_ID
-* SUPERVISOR NAME
+* UniEyes
+* Hangil Ko
+* 2286274k
+* Joseph Maguire
 
 ## Guidance
 
@@ -14,13 +14,11 @@
 
 ## Week 1
 
-### 19 Oct 2019
+### 24 Sept 2019
 
 * *4 hours* Read the project guidance notes
 * *0.5 hour* Created GitLab repository and cloned the cookiecutter for the projects
-* *1 hour* Modified dissertation template, compiled  
+* *1.5 hour* Establish my ideas
 
-## 20 Oct 2019
+### 25 Sept 2019
 
-* *1 hour* meeting with supervisor
-* *2 hours* writing initial version of test harness
