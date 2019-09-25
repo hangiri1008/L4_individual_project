@@ -21,4 +21,7 @@
 * *1.5 hour* Establish my ideas
 
 ### 25 Sept 2019
-
+ 
+* *1 hours* Meeting with supervisor
+* *0.5 hours* Organizing my ideas and add more ideas.
+* *2.5 hours* Researching which techniques should I use.
