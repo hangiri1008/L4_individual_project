@@ -69,3 +69,22 @@
 
 ### 10 Oct 2019
 * *0.5 hour* Writing aims of the project
+
+### 11 Oct 2019
+* *1 hour* 3rd Meeting with supervisor
+* *1 hour* Organizing the notes from the meeting and write a plan for todo lists
+
+### 14 Oct 2019
+* *2.5 hours* Reading references
+
+### 15 Oct 2019
+* *3 hours* Writing more details of motivations and aims of the project
+
+### 16 Oct 2019
+* *1.5 hours* Writing scenarios
+
+### 17 Oct 2019
+* *1.5 hours* Writing MoSoCoW ananylse
+
+### 18 Oct 2019
+* *1* 4th Meeting with supervisor
