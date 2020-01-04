@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{A349EAD7-6CBA-22C2-AE9C-AA487736329F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AR Education/Main Screen/AREduMainUI.cs">
+    <Files>
+      <File FileName="Assets/ARLocation/Scripts/ARSession/ARFoundationSessionManager.cs" Line="55" Column="1" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/AR Education/Main Screen/AREduMainUI.cs" Line="4" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="L4Project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ARLocation" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="ARSession" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="AR Education" expanded="True">
+                  <Node name="Main Screen" expanded="True">
+                    <Node name="AREduMainUI.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ba4543d1-eb1e-4b81-82dd-db5e2dfb1357" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

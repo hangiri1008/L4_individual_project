@@ -1,0 +1,411 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceClient::.ctor(Amazon.Runtime.AWSCredentials,Amazon.RegionEndpoint)
+extern void AmazonSecurityTokenServiceClient__ctor_m50D8E9C3666F541BA60AFF938717363195DABC46 ();
+// 0x00000002 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceClient::.ctor(Amazon.Runtime.AWSCredentials,Amazon.SecurityToken.AmazonSecurityTokenServiceConfig)
+extern void AmazonSecurityTokenServiceClient__ctor_m6F9AA1A000AFE5FF97CD07CBD278B32A2E3AAA85 ();
+// 0x00000003 Amazon.Runtime.Internal.Auth.AbstractAWSSigner Amazon.SecurityToken.AmazonSecurityTokenServiceClient::CreateSigner()
+extern void AmazonSecurityTokenServiceClient_CreateSigner_m7FCF2F5A8C8470EB1C2F37B005FC0203C61B6415 ();
+// 0x00000004 Amazon.Runtime.Internal.IServiceMetadata Amazon.SecurityToken.AmazonSecurityTokenServiceClient::get_ServiceMetadata()
+extern void AmazonSecurityTokenServiceClient_get_ServiceMetadata_m0E10217609872024B1B46EBD5B16E7FC0D8DAB8C ();
+// 0x00000005 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceClient::Dispose(System.Boolean)
+extern void AmazonSecurityTokenServiceClient_Dispose_m9B339FF7EBAF1964BA706F8CB00581F3DDBCA08C ();
+// 0x00000006 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceClient::AssumeRoleWithWebIdentityAsync(Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest,Amazon.Runtime.AmazonServiceCallback`2<Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest,Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse>,Amazon.Runtime.AsyncOptions)
+extern void AmazonSecurityTokenServiceClient_AssumeRoleWithWebIdentityAsync_mDBC85FDDEA437EA2261835105B0ED8A065D47996 ();
+// 0x00000007 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceClient::.cctor()
+extern void AmazonSecurityTokenServiceClient__cctor_m875F9B3841683B615A012A91A758266C4904D6FB ();
+// 0x00000008 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceClient_<>c__DisplayClass20_0::.ctor()
+extern void U3CU3Ec__DisplayClass20_0__ctor_m781770ED715D6CAFB98821CA6F16364742F083DE ();
+// 0x00000009 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceClient_<>c__DisplayClass20_0::<AssumeRoleWithWebIdentityAsync>b__0(Amazon.Runtime.AmazonWebServiceRequest,Amazon.Runtime.AmazonWebServiceResponse,System.Exception,Amazon.Runtime.AsyncOptions)
+extern void U3CU3Ec__DisplayClass20_0_U3CAssumeRoleWithWebIdentityAsyncU3Eb__0_m0158607CCC189BC3EEC47FC7CBE1F5FAFB1C56C4 ();
+// 0x0000000A System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceConfig::.ctor()
+extern void AmazonSecurityTokenServiceConfig__ctor_mCE1C821B5324CE79BA1183A4ACF18C727FC37379 ();
+// 0x0000000B System.String Amazon.SecurityToken.AmazonSecurityTokenServiceConfig::get_RegionEndpointServiceName()
+extern void AmazonSecurityTokenServiceConfig_get_RegionEndpointServiceName_mE87838D96BBA2DFEDB7464A9AE1F5351A937D683 ();
+// 0x0000000C System.String Amazon.SecurityToken.AmazonSecurityTokenServiceConfig::get_UserAgent()
+extern void AmazonSecurityTokenServiceConfig_get_UserAgent_m45153E3F76113758374C65650A7C26C830F111D9 ();
+// 0x0000000D System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceConfig::.cctor()
+extern void AmazonSecurityTokenServiceConfig__cctor_m00B901EAD4F8793F96439D46C78CA692500AD405 ();
+// 0x0000000E System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void AmazonSecurityTokenServiceException__ctor_mA818599EF6F26127C6012F84CBFFF5B2B4E88B5B ();
+// 0x0000000F System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void AmazonSecurityTokenServiceException__ctor_mA6DDC8259F9A48F7FA1C8E4136B3F20B242ED0B3 ();
+// 0x00000010 System.Void Amazon.SecurityToken.AmazonSecurityTokenServiceRequest::.ctor()
+extern void AmazonSecurityTokenServiceRequest__ctor_m029E721B54FF6580A9CDA14367688F79FE47E677 ();
+// 0x00000011 System.Void Amazon.SecurityToken.Internal.AmazonSecurityTokenServiceMetadata::.ctor()
+extern void AmazonSecurityTokenServiceMetadata__ctor_mE3D16E5BE59323DC8E0B9FC5E07153E4D257925D ();
+// 0x00000012 Amazon.Runtime.ImmutableCredentials Amazon.SecurityToken.Model.Credentials::GetCredentials()
+extern void Credentials_GetCredentials_m4E7D3CD28D21B0223363F14498438671F2BF4776 ();
+// 0x00000013 System.Void Amazon.SecurityToken.Model.Credentials::.ctor()
+extern void Credentials__ctor_m9E1CD7B07E63A215A4D688B9A352FD3B78A261CC ();
+// 0x00000014 System.String Amazon.SecurityToken.Model.Credentials::get_AccessKeyId()
+extern void Credentials_get_AccessKeyId_m96FB06BF86F07DFD5895398DDC0EBFE381FF5BB6 ();
+// 0x00000015 System.Void Amazon.SecurityToken.Model.Credentials::set_AccessKeyId(System.String)
+extern void Credentials_set_AccessKeyId_mC6A6BF84BC212E9F72655820F5942EB61949921B ();
+// 0x00000016 System.DateTime Amazon.SecurityToken.Model.Credentials::get_Expiration()
+extern void Credentials_get_Expiration_mFB3A20E887D2D8B91A223DC1BBADA9691BC1E3F3 ();
+// 0x00000017 System.Void Amazon.SecurityToken.Model.Credentials::set_Expiration(System.DateTime)
+extern void Credentials_set_Expiration_m71F529A9FA5391A95E78D5BBE17135B2DF96FF94 ();
+// 0x00000018 System.String Amazon.SecurityToken.Model.Credentials::get_SecretAccessKey()
+extern void Credentials_get_SecretAccessKey_m2FB8F01956CAF4942C49CC148EFCE8D128C70C55 ();
+// 0x00000019 System.Void Amazon.SecurityToken.Model.Credentials::set_SecretAccessKey(System.String)
+extern void Credentials_set_SecretAccessKey_m0B288725251804234E0E2C28A2E8D90BD109607B ();
+// 0x0000001A System.String Amazon.SecurityToken.Model.Credentials::get_SessionToken()
+extern void Credentials_get_SessionToken_m6118D6F0712E098DBC9039E13AEDEEBCB8FF4933 ();
+// 0x0000001B System.Void Amazon.SecurityToken.Model.Credentials::set_SessionToken(System.String)
+extern void Credentials_set_SessionToken_m4A1EEDFA749FC59B961B19C95BE9E9AD396C8472 ();
+// 0x0000001C System.Void Amazon.SecurityToken.Model.AssumedRoleUser::set_Arn(System.String)
+extern void AssumedRoleUser_set_Arn_mC7FA2BAF7592AB12B3367066C613D4C9EF5A190D ();
+// 0x0000001D System.Void Amazon.SecurityToken.Model.AssumedRoleUser::set_AssumedRoleId(System.String)
+extern void AssumedRoleUser_set_AssumedRoleId_m5579B74A268768C050970497A70C0CE9CC256242 ();
+// 0x0000001E System.Void Amazon.SecurityToken.Model.AssumedRoleUser::.ctor()
+extern void AssumedRoleUser__ctor_m956202501F310C025D281CC0A42D38B2ECA2F14E ();
+// 0x0000001F System.Int32 Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::get_DurationSeconds()
+extern void AssumeRoleWithWebIdentityRequest_get_DurationSeconds_mBFED5BF3C65C41A12CB0AEFD7BB8C6609D3458C1 ();
+// 0x00000020 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::set_DurationSeconds(System.Int32)
+extern void AssumeRoleWithWebIdentityRequest_set_DurationSeconds_mAB3EDDF7E78C65A80E352C2DDDAD8EB297EDBB1D ();
+// 0x00000021 System.Boolean Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::IsSetDurationSeconds()
+extern void AssumeRoleWithWebIdentityRequest_IsSetDurationSeconds_m5F4AC461CBCE13FC98E016A20057D54E21828EF7 ();
+// 0x00000022 System.String Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::get_Policy()
+extern void AssumeRoleWithWebIdentityRequest_get_Policy_m1AFAF080DE4A5B50BAA01B23B629496DE0E0109D ();
+// 0x00000023 System.Boolean Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::IsSetPolicy()
+extern void AssumeRoleWithWebIdentityRequest_IsSetPolicy_m2CA2EAF641062CD7F3544CA95DBDDFF8C9BEC021 ();
+// 0x00000024 System.Collections.Generic.List`1<Amazon.SecurityToken.Model.PolicyDescriptorType> Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::get_PolicyArns()
+extern void AssumeRoleWithWebIdentityRequest_get_PolicyArns_m9079B16C79F0BEA27FA96893482E2ADA1D25411E ();
+// 0x00000025 System.Boolean Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::IsSetPolicyArns()
+extern void AssumeRoleWithWebIdentityRequest_IsSetPolicyArns_m1560C9ADF5910E2EF3141D7DE2F5773E331A2F30 ();
+// 0x00000026 System.String Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::get_ProviderId()
+extern void AssumeRoleWithWebIdentityRequest_get_ProviderId_m6CAA19BAB4401A94160DF58EE3F499CDEE135ACA ();
+// 0x00000027 System.Boolean Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::IsSetProviderId()
+extern void AssumeRoleWithWebIdentityRequest_IsSetProviderId_m922DE5724D44D1FBF1B6868C94DF5B0C5C5B04F0 ();
+// 0x00000028 System.String Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::get_RoleArn()
+extern void AssumeRoleWithWebIdentityRequest_get_RoleArn_m1CEC3F4BC8ABC782E9B7D281986E71C5D7D58DA3 ();
+// 0x00000029 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::set_RoleArn(System.String)
+extern void AssumeRoleWithWebIdentityRequest_set_RoleArn_m8703F5052A062D4D8C13B7B77DD002C5576FA371 ();
+// 0x0000002A System.Boolean Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::IsSetRoleArn()
+extern void AssumeRoleWithWebIdentityRequest_IsSetRoleArn_m3F73979E12F0C109C97210A8DAB3FD3963DA674B ();
+// 0x0000002B System.String Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::get_RoleSessionName()
+extern void AssumeRoleWithWebIdentityRequest_get_RoleSessionName_m7798D164120B91D85B15C7ACCEA31CCA356BB785 ();
+// 0x0000002C System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::set_RoleSessionName(System.String)
+extern void AssumeRoleWithWebIdentityRequest_set_RoleSessionName_m983F838441E88759D6C9535226026F91E38F4E54 ();
+// 0x0000002D System.Boolean Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::IsSetRoleSessionName()
+extern void AssumeRoleWithWebIdentityRequest_IsSetRoleSessionName_m7696524ADEAF0C0B7E1B1AED81048BE134D032E6 ();
+// 0x0000002E System.String Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::get_WebIdentityToken()
+extern void AssumeRoleWithWebIdentityRequest_get_WebIdentityToken_mE95D06FB8E00522B5C4975F04E95DF483EF6C636 ();
+// 0x0000002F System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::set_WebIdentityToken(System.String)
+extern void AssumeRoleWithWebIdentityRequest_set_WebIdentityToken_mCFEAE239F008BB0071CC4A21565AFFDBBC38F0B9 ();
+// 0x00000030 System.Boolean Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::IsSetWebIdentityToken()
+extern void AssumeRoleWithWebIdentityRequest_IsSetWebIdentityToken_m4213CD90CA751A540AAB819718DB863F331507B5 ();
+// 0x00000031 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest::.ctor()
+extern void AssumeRoleWithWebIdentityRequest__ctor_m051EDC5EA0507477986C53688D11F16DD1F7A810 ();
+// 0x00000032 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::set_AssumedRoleUser(Amazon.SecurityToken.Model.AssumedRoleUser)
+extern void AssumeRoleWithWebIdentityResponse_set_AssumedRoleUser_mFEB2D91315BB9105F70C318B317524BDAA5BB427 ();
+// 0x00000033 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::set_Audience(System.String)
+extern void AssumeRoleWithWebIdentityResponse_set_Audience_m2AC4CD95DA415B0D5FADAEF5967E291E1A34FD54 ();
+// 0x00000034 Amazon.SecurityToken.Model.Credentials Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::get_Credentials()
+extern void AssumeRoleWithWebIdentityResponse_get_Credentials_m19761DB3F44CA7FAC5009AA1CAAB7EC96FC31DFC ();
+// 0x00000035 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::set_Credentials(Amazon.SecurityToken.Model.Credentials)
+extern void AssumeRoleWithWebIdentityResponse_set_Credentials_mBF653C013888A1DBBC609D2B0CB52688C44FBEB6 ();
+// 0x00000036 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::set_PackedPolicySize(System.Int32)
+extern void AssumeRoleWithWebIdentityResponse_set_PackedPolicySize_m9669F6CF52A99EBCDF10CB26D11C4676F755C734 ();
+// 0x00000037 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::set_Provider(System.String)
+extern void AssumeRoleWithWebIdentityResponse_set_Provider_m6137D9486700522D666D3E868ACBD337C75FB3CC ();
+// 0x00000038 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::set_SubjectFromWebIdentityToken(System.String)
+extern void AssumeRoleWithWebIdentityResponse_set_SubjectFromWebIdentityToken_mF618602EC4E98E50E809F940519437837D45019C ();
+// 0x00000039 System.Void Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse::.ctor()
+extern void AssumeRoleWithWebIdentityResponse__ctor_m85928D7CECB678CC73DBAC38DBC8E25999E9E7A2 ();
+// 0x0000003A System.Void Amazon.SecurityToken.Model.ExpiredTokenException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void ExpiredTokenException__ctor_m3E8F81AFA56D9224F2690B5686FE74C44B6E1784 ();
+// 0x0000003B System.Void Amazon.SecurityToken.Model.ExpiredTokenException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void ExpiredTokenException__ctor_m8089116E8BBCF4EDAD6EFB5FBF11CDBDDB9B9BB1 ();
+// 0x0000003C System.Void Amazon.SecurityToken.Model.IDPCommunicationErrorException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void IDPCommunicationErrorException__ctor_m113C49B465D65B95E91C65CD0628F0B05CC20842 ();
+// 0x0000003D System.Void Amazon.SecurityToken.Model.IDPCommunicationErrorException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void IDPCommunicationErrorException__ctor_mB5FD8E0D43A9AFF3D4909AD2E4AECEB22641F494 ();
+// 0x0000003E System.Void Amazon.SecurityToken.Model.IDPRejectedClaimException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void IDPRejectedClaimException__ctor_m73832F96850CA59AC0A0F700FF400B8E9B0665F7 ();
+// 0x0000003F System.Void Amazon.SecurityToken.Model.IDPRejectedClaimException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void IDPRejectedClaimException__ctor_m5F6346689B1BD13727632D8E75778AAF46A525E5 ();
+// 0x00000040 System.Void Amazon.SecurityToken.Model.InvalidIdentityTokenException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void InvalidIdentityTokenException__ctor_mE5536054F3BEF49F0206F5271CB1008112327EC5 ();
+// 0x00000041 System.Void Amazon.SecurityToken.Model.InvalidIdentityTokenException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void InvalidIdentityTokenException__ctor_m3B58C6598FD7C8781B8C9556AB9BEC5A0DBC12B7 ();
+// 0x00000042 System.Void Amazon.SecurityToken.Model.MalformedPolicyDocumentException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void MalformedPolicyDocumentException__ctor_mB423AD04898B192D8D2894C4C52A54A2E609168D ();
+// 0x00000043 System.Void Amazon.SecurityToken.Model.MalformedPolicyDocumentException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void MalformedPolicyDocumentException__ctor_m787E1C79177F7162194722F4E2B171904487595D ();
+// 0x00000044 System.Void Amazon.SecurityToken.Model.PackedPolicyTooLargeException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void PackedPolicyTooLargeException__ctor_m7D06DE0198F8DAF1D7E5BF8CC7A65F3FA7D9C1EA ();
+// 0x00000045 System.Void Amazon.SecurityToken.Model.PackedPolicyTooLargeException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void PackedPolicyTooLargeException__ctor_m60A7678B6AA773CDE848CF83282C93EAE03481C7 ();
+// 0x00000046 System.String Amazon.SecurityToken.Model.PolicyDescriptorType::get_Arn()
+extern void PolicyDescriptorType_get_Arn_m478FCCABA40672E5594F666F07AD320703211699 ();
+// 0x00000047 System.Boolean Amazon.SecurityToken.Model.PolicyDescriptorType::IsSetArn()
+extern void PolicyDescriptorType_IsSetArn_m6E5A116154A2AF02F981B56C835D2EB5AD3A28F9 ();
+// 0x00000048 System.Void Amazon.SecurityToken.Model.RegionDisabledException::.ctor(System.String,System.Exception,Amazon.Runtime.ErrorType,System.String,System.String,System.Net.HttpStatusCode)
+extern void RegionDisabledException__ctor_mABE6D32E8C59B3211D40930344C5FA3A5D493289 ();
+// 0x00000049 System.Void Amazon.SecurityToken.Model.RegionDisabledException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+extern void RegionDisabledException__ctor_m40D1B64782F3539E1BF77D67F217EE2228CF75C5 ();
+// 0x0000004A Amazon.SecurityToken.Model.AssumedRoleUser Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumedRoleUserUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)
+extern void AssumedRoleUserUnmarshaller_Unmarshall_m6F8A0F709ADF48264415C4BBA1131887766DF41C ();
+// 0x0000004B Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumedRoleUserUnmarshaller Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumedRoleUserUnmarshaller::get_Instance()
+extern void AssumedRoleUserUnmarshaller_get_Instance_m92C53C2E29C24FBE87F37117482009967241B567 ();
+// 0x0000004C System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumedRoleUserUnmarshaller::.ctor()
+extern void AssumedRoleUserUnmarshaller__ctor_m3CBC91DAB07F8A8F4D21E5407F4A052C85E25E42 ();
+// 0x0000004D System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumedRoleUserUnmarshaller::.cctor()
+extern void AssumedRoleUserUnmarshaller__cctor_m546E33AC8002DDFD4CDF0E36324BD540FF079901 ();
+// 0x0000004E Amazon.Runtime.Internal.IRequest Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityRequestMarshaller::Marshall(Amazon.Runtime.AmazonWebServiceRequest)
+extern void AssumeRoleWithWebIdentityRequestMarshaller_Marshall_m86C99EE9F2CF76D01C02646DE7E93AC52E44BFD3 ();
+// 0x0000004F Amazon.Runtime.Internal.IRequest Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityRequestMarshaller::Marshall(Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityRequest)
+extern void AssumeRoleWithWebIdentityRequestMarshaller_Marshall_mA110CD627590C290AF114EB75EEF7365974B42FD ();
+// 0x00000050 Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityRequestMarshaller Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityRequestMarshaller::get_Instance()
+extern void AssumeRoleWithWebIdentityRequestMarshaller_get_Instance_mE80C868026B6B0D3B703D7280B11D6E7F280E8BC ();
+// 0x00000051 System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityRequestMarshaller::.ctor()
+extern void AssumeRoleWithWebIdentityRequestMarshaller__ctor_m6AE03244ACBA2A943B1C18BC92E66196463F7461 ();
+// 0x00000052 System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityRequestMarshaller::.cctor()
+extern void AssumeRoleWithWebIdentityRequestMarshaller__cctor_mC3B167258330D55362BD29A5BD5E8C538D17B606 ();
+// 0x00000053 Amazon.Runtime.AmazonWebServiceResponse Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityResponseUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)
+extern void AssumeRoleWithWebIdentityResponseUnmarshaller_Unmarshall_mE0EC9940C6CF923CF266A65710D6ADB1372EDDE3 ();
+// 0x00000054 System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityResponseUnmarshaller::UnmarshallResult(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,Amazon.SecurityToken.Model.AssumeRoleWithWebIdentityResponse)
+extern void AssumeRoleWithWebIdentityResponseUnmarshaller_UnmarshallResult_mD15FD2ED6E891B80B341A2057BD88096E9457ED0 ();
+// 0x00000055 Amazon.Runtime.AmazonServiceException Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityResponseUnmarshaller::UnmarshallException(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext,System.Exception,System.Net.HttpStatusCode)
+extern void AssumeRoleWithWebIdentityResponseUnmarshaller_UnmarshallException_mB937EB274AEB9EF46EA7C79EBB11DD8B0FDF8C47 ();
+// 0x00000056 Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityResponseUnmarshaller Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityResponseUnmarshaller::get_Instance()
+extern void AssumeRoleWithWebIdentityResponseUnmarshaller_get_Instance_m8DC81ACE869B557510D9FE602E088B6F283652BE ();
+// 0x00000057 System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityResponseUnmarshaller::.ctor()
+extern void AssumeRoleWithWebIdentityResponseUnmarshaller__ctor_m142B1F1CB3EFC7F8D167521E12D30EE2270056FA ();
+// 0x00000058 System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.AssumeRoleWithWebIdentityResponseUnmarshaller::.cctor()
+extern void AssumeRoleWithWebIdentityResponseUnmarshaller__cctor_m52A53A152FFD7EAAB242ACEC6A9614635C01FD58 ();
+// 0x00000059 Amazon.SecurityToken.Model.Credentials Amazon.SecurityToken.Model.Internal.MarshallTransformations.CredentialsUnmarshaller::Unmarshall(Amazon.Runtime.Internal.Transform.XmlUnmarshallerContext)
+extern void CredentialsUnmarshaller_Unmarshall_mA0584D8D4B29B315ED4C2F5CFDA73E4743D63394 ();
+// 0x0000005A Amazon.SecurityToken.Model.Internal.MarshallTransformations.CredentialsUnmarshaller Amazon.SecurityToken.Model.Internal.MarshallTransformations.CredentialsUnmarshaller::get_Instance()
+extern void CredentialsUnmarshaller_get_Instance_m927F665CD72A247DE166CFAC8342EE86B788D14E ();
+// 0x0000005B System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.CredentialsUnmarshaller::.ctor()
+extern void CredentialsUnmarshaller__ctor_mB3FB9D46158776C8CE0754AC5CFD2560D96918F5 ();
+// 0x0000005C System.Void Amazon.SecurityToken.Model.Internal.MarshallTransformations.CredentialsUnmarshaller::.cctor()
+extern void CredentialsUnmarshaller__cctor_mEDED4DD69E95CD098A53CA164AF24C7ED83471FA ();
+static Il2CppMethodPointer s_methodPointers[92] = 
+{
+	AmazonSecurityTokenServiceClient__ctor_m50D8E9C3666F541BA60AFF938717363195DABC46,
+	AmazonSecurityTokenServiceClient__ctor_m6F9AA1A000AFE5FF97CD07CBD278B32A2E3AAA85,
+	AmazonSecurityTokenServiceClient_CreateSigner_m7FCF2F5A8C8470EB1C2F37B005FC0203C61B6415,
+	AmazonSecurityTokenServiceClient_get_ServiceMetadata_m0E10217609872024B1B46EBD5B16E7FC0D8DAB8C,
+	AmazonSecurityTokenServiceClient_Dispose_m9B339FF7EBAF1964BA706F8CB00581F3DDBCA08C,
+	AmazonSecurityTokenServiceClient_AssumeRoleWithWebIdentityAsync_mDBC85FDDEA437EA2261835105B0ED8A065D47996,
+	AmazonSecurityTokenServiceClient__cctor_m875F9B3841683B615A012A91A758266C4904D6FB,
+	U3CU3Ec__DisplayClass20_0__ctor_m781770ED715D6CAFB98821CA6F16364742F083DE,
+	U3CU3Ec__DisplayClass20_0_U3CAssumeRoleWithWebIdentityAsyncU3Eb__0_m0158607CCC189BC3EEC47FC7CBE1F5FAFB1C56C4,
+	AmazonSecurityTokenServiceConfig__ctor_mCE1C821B5324CE79BA1183A4ACF18C727FC37379,
+	AmazonSecurityTokenServiceConfig_get_RegionEndpointServiceName_mE87838D96BBA2DFEDB7464A9AE1F5351A937D683,
+	AmazonSecurityTokenServiceConfig_get_UserAgent_m45153E3F76113758374C65650A7C26C830F111D9,
+	AmazonSecurityTokenServiceConfig__cctor_m00B901EAD4F8793F96439D46C78CA692500AD405,
+	AmazonSecurityTokenServiceException__ctor_mA818599EF6F26127C6012F84CBFFF5B2B4E88B5B,
+	AmazonSecurityTokenServiceException__ctor_mA6DDC8259F9A48F7FA1C8E4136B3F20B242ED0B3,
+	AmazonSecurityTokenServiceRequest__ctor_m029E721B54FF6580A9CDA14367688F79FE47E677,
+	AmazonSecurityTokenServiceMetadata__ctor_mE3D16E5BE59323DC8E0B9FC5E07153E4D257925D,
+	Credentials_GetCredentials_m4E7D3CD28D21B0223363F14498438671F2BF4776,
+	Credentials__ctor_m9E1CD7B07E63A215A4D688B9A352FD3B78A261CC,
+	Credentials_get_AccessKeyId_m96FB06BF86F07DFD5895398DDC0EBFE381FF5BB6,
+	Credentials_set_AccessKeyId_mC6A6BF84BC212E9F72655820F5942EB61949921B,
+	Credentials_get_Expiration_mFB3A20E887D2D8B91A223DC1BBADA9691BC1E3F3,
+	Credentials_set_Expiration_m71F529A9FA5391A95E78D5BBE17135B2DF96FF94,
+	Credentials_get_SecretAccessKey_m2FB8F01956CAF4942C49CC148EFCE8D128C70C55,
+	Credentials_set_SecretAccessKey_m0B288725251804234E0E2C28A2E8D90BD109607B,
+	Credentials_get_SessionToken_m6118D6F0712E098DBC9039E13AEDEEBCB8FF4933,
+	Credentials_set_SessionToken_m4A1EEDFA749FC59B961B19C95BE9E9AD396C8472,
+	AssumedRoleUser_set_Arn_mC7FA2BAF7592AB12B3367066C613D4C9EF5A190D,
+	AssumedRoleUser_set_AssumedRoleId_m5579B74A268768C050970497A70C0CE9CC256242,
+	AssumedRoleUser__ctor_m956202501F310C025D281CC0A42D38B2ECA2F14E,
+	AssumeRoleWithWebIdentityRequest_get_DurationSeconds_mBFED5BF3C65C41A12CB0AEFD7BB8C6609D3458C1,
+	AssumeRoleWithWebIdentityRequest_set_DurationSeconds_mAB3EDDF7E78C65A80E352C2DDDAD8EB297EDBB1D,
+	AssumeRoleWithWebIdentityRequest_IsSetDurationSeconds_m5F4AC461CBCE13FC98E016A20057D54E21828EF7,
+	AssumeRoleWithWebIdentityRequest_get_Policy_m1AFAF080DE4A5B50BAA01B23B629496DE0E0109D,
+	AssumeRoleWithWebIdentityRequest_IsSetPolicy_m2CA2EAF641062CD7F3544CA95DBDDFF8C9BEC021,
+	AssumeRoleWithWebIdentityRequest_get_PolicyArns_m9079B16C79F0BEA27FA96893482E2ADA1D25411E,
+	AssumeRoleWithWebIdentityRequest_IsSetPolicyArns_m1560C9ADF5910E2EF3141D7DE2F5773E331A2F30,
+	AssumeRoleWithWebIdentityRequest_get_ProviderId_m6CAA19BAB4401A94160DF58EE3F499CDEE135ACA,
+	AssumeRoleWithWebIdentityRequest_IsSetProviderId_m922DE5724D44D1FBF1B6868C94DF5B0C5C5B04F0,
+	AssumeRoleWithWebIdentityRequest_get_RoleArn_m1CEC3F4BC8ABC782E9B7D281986E71C5D7D58DA3,
+	AssumeRoleWithWebIdentityRequest_set_RoleArn_m8703F5052A062D4D8C13B7B77DD002C5576FA371,
+	AssumeRoleWithWebIdentityRequest_IsSetRoleArn_m3F73979E12F0C109C97210A8DAB3FD3963DA674B,
+	AssumeRoleWithWebIdentityRequest_get_RoleSessionName_m7798D164120B91D85B15C7ACCEA31CCA356BB785,
+	AssumeRoleWithWebIdentityRequest_set_RoleSessionName_m983F838441E88759D6C9535226026F91E38F4E54,
+	AssumeRoleWithWebIdentityRequest_IsSetRoleSessionName_m7696524ADEAF0C0B7E1B1AED81048BE134D032E6,
+	AssumeRoleWithWebIdentityRequest_get_WebIdentityToken_mE95D06FB8E00522B5C4975F04E95DF483EF6C636,
+	AssumeRoleWithWebIdentityRequest_set_WebIdentityToken_mCFEAE239F008BB0071CC4A21565AFFDBBC38F0B9,
+	AssumeRoleWithWebIdentityRequest_IsSetWebIdentityToken_m4213CD90CA751A540AAB819718DB863F331507B5,
+	AssumeRoleWithWebIdentityRequest__ctor_m051EDC5EA0507477986C53688D11F16DD1F7A810,
+	AssumeRoleWithWebIdentityResponse_set_AssumedRoleUser_mFEB2D91315BB9105F70C318B317524BDAA5BB427,
+	AssumeRoleWithWebIdentityResponse_set_Audience_m2AC4CD95DA415B0D5FADAEF5967E291E1A34FD54,
+	AssumeRoleWithWebIdentityResponse_get_Credentials_m19761DB3F44CA7FAC5009AA1CAAB7EC96FC31DFC,
+	AssumeRoleWithWebIdentityResponse_set_Credentials_mBF653C013888A1DBBC609D2B0CB52688C44FBEB6,
+	AssumeRoleWithWebIdentityResponse_set_PackedPolicySize_m9669F6CF52A99EBCDF10CB26D11C4676F755C734,
+	AssumeRoleWithWebIdentityResponse_set_Provider_m6137D9486700522D666D3E868ACBD337C75FB3CC,
+	AssumeRoleWithWebIdentityResponse_set_SubjectFromWebIdentityToken_mF618602EC4E98E50E809F940519437837D45019C,
+	AssumeRoleWithWebIdentityResponse__ctor_m85928D7CECB678CC73DBAC38DBC8E25999E9E7A2,
+	ExpiredTokenException__ctor_m3E8F81AFA56D9224F2690B5686FE74C44B6E1784,
+	ExpiredTokenException__ctor_m8089116E8BBCF4EDAD6EFB5FBF11CDBDDB9B9BB1,
+	IDPCommunicationErrorException__ctor_m113C49B465D65B95E91C65CD0628F0B05CC20842,
+	IDPCommunicationErrorException__ctor_mB5FD8E0D43A9AFF3D4909AD2E4AECEB22641F494,
+	IDPRejectedClaimException__ctor_m73832F96850CA59AC0A0F700FF400B8E9B0665F7,
+	IDPRejectedClaimException__ctor_m5F6346689B1BD13727632D8E75778AAF46A525E5,
+	InvalidIdentityTokenException__ctor_mE5536054F3BEF49F0206F5271CB1008112327EC5,
+	InvalidIdentityTokenException__ctor_m3B58C6598FD7C8781B8C9556AB9BEC5A0DBC12B7,
+	MalformedPolicyDocumentException__ctor_mB423AD04898B192D8D2894C4C52A54A2E609168D,
+	MalformedPolicyDocumentException__ctor_m787E1C79177F7162194722F4E2B171904487595D,
+	PackedPolicyTooLargeException__ctor_m7D06DE0198F8DAF1D7E5BF8CC7A65F3FA7D9C1EA,
+	PackedPolicyTooLargeException__ctor_m60A7678B6AA773CDE848CF83282C93EAE03481C7,
+	PolicyDescriptorType_get_Arn_m478FCCABA40672E5594F666F07AD320703211699,
+	PolicyDescriptorType_IsSetArn_m6E5A116154A2AF02F981B56C835D2EB5AD3A28F9,
+	RegionDisabledException__ctor_mABE6D32E8C59B3211D40930344C5FA3A5D493289,
+	RegionDisabledException__ctor_m40D1B64782F3539E1BF77D67F217EE2228CF75C5,
+	AssumedRoleUserUnmarshaller_Unmarshall_m6F8A0F709ADF48264415C4BBA1131887766DF41C,
+	AssumedRoleUserUnmarshaller_get_Instance_m92C53C2E29C24FBE87F37117482009967241B567,
+	AssumedRoleUserUnmarshaller__ctor_m3CBC91DAB07F8A8F4D21E5407F4A052C85E25E42,
+	AssumedRoleUserUnmarshaller__cctor_m546E33AC8002DDFD4CDF0E36324BD540FF079901,
+	AssumeRoleWithWebIdentityRequestMarshaller_Marshall_m86C99EE9F2CF76D01C02646DE7E93AC52E44BFD3,
+	AssumeRoleWithWebIdentityRequestMarshaller_Marshall_mA110CD627590C290AF114EB75EEF7365974B42FD,
+	AssumeRoleWithWebIdentityRequestMarshaller_get_Instance_mE80C868026B6B0D3B703D7280B11D6E7F280E8BC,
+	AssumeRoleWithWebIdentityRequestMarshaller__ctor_m6AE03244ACBA2A943B1C18BC92E66196463F7461,
+	AssumeRoleWithWebIdentityRequestMarshaller__cctor_mC3B167258330D55362BD29A5BD5E8C538D17B606,
+	AssumeRoleWithWebIdentityResponseUnmarshaller_Unmarshall_mE0EC9940C6CF923CF266A65710D6ADB1372EDDE3,
+	AssumeRoleWithWebIdentityResponseUnmarshaller_UnmarshallResult_mD15FD2ED6E891B80B341A2057BD88096E9457ED0,
+	AssumeRoleWithWebIdentityResponseUnmarshaller_UnmarshallException_mB937EB274AEB9EF46EA7C79EBB11DD8B0FDF8C47,
+	AssumeRoleWithWebIdentityResponseUnmarshaller_get_Instance_m8DC81ACE869B557510D9FE602E088B6F283652BE,
+	AssumeRoleWithWebIdentityResponseUnmarshaller__ctor_m142B1F1CB3EFC7F8D167521E12D30EE2270056FA,
+	AssumeRoleWithWebIdentityResponseUnmarshaller__cctor_m52A53A152FFD7EAAB242ACEC6A9614635C01FD58,
+	CredentialsUnmarshaller_Unmarshall_mA0584D8D4B29B315ED4C2F5CFDA73E4743D63394,
+	CredentialsUnmarshaller_get_Instance_m927F665CD72A247DE166CFAC8342EE86B788D14E,
+	CredentialsUnmarshaller__ctor_mB3FB9D46158776C8CE0754AC5CFD2560D96918F5,
+	CredentialsUnmarshaller__cctor_mEDED4DD69E95CD098A53CA164AF24C7ED83471FA,
+};
+static const int32_t s_InvokerIndices[92] = 
+{
+	27,
+	27,
+	14,
+	14,
+	31,
+	206,
+	3,
+	23,
+	440,
+	23,
+	14,
+	14,
+	3,
+	1943,
+	111,
+	23,
+	23,
+	14,
+	23,
+	14,
+	26,
+	110,
+	331,
+	14,
+	26,
+	14,
+	26,
+	26,
+	26,
+	23,
+	10,
+	32,
+	89,
+	14,
+	89,
+	14,
+	89,
+	14,
+	89,
+	14,
+	26,
+	89,
+	14,
+	26,
+	89,
+	14,
+	26,
+	89,
+	23,
+	26,
+	26,
+	14,
+	26,
+	32,
+	26,
+	26,
+	23,
+	1943,
+	111,
+	1943,
+	111,
+	1943,
+	111,
+	1943,
+	111,
+	1943,
+	111,
+	1943,
+	111,
+	14,
+	89,
+	1943,
+	111,
+	28,
+	4,
+	23,
+	3,
+	28,
+	28,
+	4,
+	23,
+	3,
+	28,
+	137,
+	102,
+	4,
+	23,
+	3,
+	28,
+	4,
+	23,
+	3,
+};
+extern const Il2CppCodeGenModule g_AWSSDK_SecurityTokenCodeGenModule;
+const Il2CppCodeGenModule g_AWSSDK_SecurityTokenCodeGenModule = 
+{
+	"AWSSDK.SecurityToken.dll",
+	92,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
