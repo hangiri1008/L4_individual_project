@@ -19,6 +19,21 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("AREduMain");
     }
 
+    public void LoadAREducation_ArduinoScene()
+    {
+        SceneManager.LoadScene("AREduArduino");
+    }
+
+    public void LoadAREducation_MotherBoardScene()
+    {
+        SceneManager.LoadScene("AREduCircuit");
+    }
+
+    public void LoadAREducation_SortingAlgorithmScene()
+    {
+        SceneManager.LoadScene("AREduSortingAlgorithm");
+    }
+
     public void LoadStartScene()
     {
         PortraitMode();
