@@ -63,9 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AREducation\Scripts\CallOutInformation.cs" />
-    <Compile Include="Assets\AREducation\Scripts\CardUIManager.cs" />
-    <Compile Include="Assets\AREducation\Scripts\Menubar.cs" />
+    <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoBoardDescLabelCallOut.cs" />
+    <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoMainUI.cs" />
+    <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\CardUIManager.cs" />
+    <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\SortingAlgorithmMainUI.cs" />
+    <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\UIManager_AR_Education.cs" />
+    <Compile Include="Assets\AREducation\Scripts\AREduMainUI.cs" />
     <Compile Include="Assets\ARLocation\Scripts\ARLocation.cs" />
     <Compile Include="Assets\ARLocation\Scripts\ARSession\ARFoundationSessionManager.cs" />
     <Compile Include="Assets\ARLocation\Scripts\ARSession\IARSessionManager.cs" />
@@ -124,15 +127,6 @@
     <Compile Include="Assets\ARLocation\Scripts\Utils\Singleton.cs" />
     <Compile Include="Assets\ARLocation\Scripts\Utils\SmoothMove.cs" />
     <Compile Include="Assets\AWS\Examples\S3Example.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Case.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Interface\IPanel.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\ClientInfoPanel.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\LocationPanel.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\OverviewPanel.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\SearchPanel.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\SelectPanel.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\Panels\TakePhotoPanel.cs" />
-    <Compile Include="Assets\Insurance App\assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanCircuit.cs" />
     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanDocumentation.cs" />
     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanLinkTo.cs" />
@@ -177,9 +171,6 @@
     <Compile Include="Assets\Scripts\AR Campus Map\CircularMenuControl.cs" />
     <Compile Include="Assets\Scripts\AR Campus Map\OuterRingPiece.cs" />
     <Compile Include="Assets\Scripts\AR Campus Map\UIManager_AR_Map.cs" />
-    <Compile Include="Assets\Scripts\AR Education\Label_CallOut.cs" />
-    <Compile Include="Assets\Scripts\AR Education\Main Screen\AREduMainUI.cs" />
-    <Compile Include="Assets\Scripts\AR Education\UIManager_AR_Education.cs" />
     <Compile Include="Assets\Scripts\AWSManager.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Ultimate Radial Menu\_Examples\Capsule Man Item Pickup\Scripts\CharacterInventoryGameManager.cs" />

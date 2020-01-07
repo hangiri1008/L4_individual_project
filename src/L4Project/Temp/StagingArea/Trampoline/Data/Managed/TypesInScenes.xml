@@ -42,6 +42,10 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ARLocation.ARLocationConfig" preserve="nothing"/>
+		<type fullname="Lean.Touch.LeanDragTranslate" preserve="nothing"/>
+		<type fullname="Lean.Touch.LeanPinchScale" preserve="nothing"/>
+		<type fullname="Lean.Touch.LeanTouch" preserve="nothing"/>
+		<type fullname="Lean.Touch.LeanTwistRotate" preserve="nothing"/>
 		<type fullname="SceneLoader" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">

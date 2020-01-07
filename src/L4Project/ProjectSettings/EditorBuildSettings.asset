@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 90904e9da0fa04c87b8d10e2cbcd369c
+  - enabled: 1
+    path: Assets/Scenes/AR Education/AREduMain.unity
+    guid: 97b8fd998589a4f00b09242937c4e1dd
+  - enabled: 1
+    path: Assets/Scenes/AR Education/AREduArduino.unity
+    guid: 8f4cf766222ac45c7a07956a04acad1c
+  - enabled: 1
+    path: Assets/Scenes/AR Education/AREduCircuit.unity
+    guid: 858dda18a2ea040e28960c1a0aab544d
+  - enabled: 1
+    path: Assets/Scenes/AR Education/AREduSortingAlgorithm.unity
+    guid: db4fd79205190478e93fadf8378b4fab
   m_configObjects: {}

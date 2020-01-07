@@ -641,6 +641,8 @@ struct WhereEnumerableIterator_1_tA18D8BF799B66905332740C9366555398BC94F3D;
 struct WhereListIterator_1_tDCF43A334FC133B23D1F37599A6F5C07AE90CCFB;
 // System.Linq.Enumerable/WhereListIterator`1<System.Object>
 struct WhereListIterator_1_t4ABE9A00944E61DA8EDD1B29E844ACAA7CC41D7E;
+// System.Linq.Enumerable/WhereSelectListIterator`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
+struct WhereSelectListIterator_2_tF511A24C296E267B4B8CCD931617B7FA1AA3E011;
 // System.Linq.Enumerable/WhereSelectListIterator`2<System.Int32Enum,System.Object>
 struct WhereSelectListIterator_2_t00F7955A5BD66BA29C2E84960E57A75FF1F41688;
 // System.Linq.Enumerable/WhereSelectListIterator`2<System.Object,System.Object>
@@ -22458,6 +22460,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Statics_FindEnumerableElementType_mE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Inequality_m615014191FB05FD50F63A24EB9A6CCA785E7CEC9 (Type_t * ___left0, Type_t * ___right1, const RuntimeMethod* method);
 // System.Void System.ArgumentException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m9A85EF7FEFEC21DDD525A67E831D77278E5165B7 (ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.Collections.Generic.IEnumerable`1<TResult2> System.Linq.Enumerable_WhereSelectListIterator`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>::Select<System.Object>(System.Func`2<TResult,TResult2>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WhereSelectListIterator_2_Select_TisRuntimeObject_m840ABB374A6C2E7538162F06A75ECFA129FB410A_gshared (WhereSelectListIterator_2_tF511A24C296E267B4B8CCD931617B7FA1AA3E011 * __this, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * ___selector0, const RuntimeMethod* method)
+{
+	{
+		List_1_tD62118A77E82CE338C058D8A4F46737A91E4D840 * L_0 = (List_1_tD62118A77E82CE338C058D8A4F46737A91E4D840 *)__this->get_source_3();
+		Func_2_tDE206277234449DB58096CE5942385BEE733D712 * L_1 = (Func_2_tDE206277234449DB58096CE5942385BEE733D712 *)__this->get_predicate_4();
+		Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE * L_2 = (Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE *)__this->get_selector_5();
+		Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 * L_3 = ___selector0;
+		Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE * L_4 = ((  Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE * (*) (Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE *, Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)((Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE *)L_2, (Func_2_tE9A60F007AC624EA27BF19DEF4242B7DA2F1C2A4 *)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		WhereSelectListIterator_2_tF511A24C296E267B4B8CCD931617B7FA1AA3E011 * L_5 = (WhereSelectListIterator_2_tF511A24C296E267B4B8CCD931617B7FA1AA3E011 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->rgctx_data, 1));
+		((  void (*) (WhereSelectListIterator_2_tF511A24C296E267B4B8CCD931617B7FA1AA3E011 *, List_1_tD62118A77E82CE338C058D8A4F46737A91E4D840 *, Func_2_tDE206277234449DB58096CE5942385BEE733D712 *, Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2)->methodPointer)(L_5, (List_1_tD62118A77E82CE338C058D8A4F46737A91E4D840 *)L_0, (Func_2_tDE206277234449DB58096CE5942385BEE733D712 *)L_1, (Func_2_tCD5886E7A335518941B3B3ABAE8E22EEFF7DE5DE *)L_4, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
+		return L_5;
+	}
+}
 // System.Collections.Generic.IEnumerable`1<TResult2> System.Linq.Enumerable_WhereSelectListIterator`2<System.Int32Enum,System.Object>::Select<System.Boolean>(System.Func`2<TResult,TResult2>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WhereSelectListIterator_2_Select_TisBoolean_tB53F6830F670160873277339AA58F15CAED4399C_m2DD9B1247E33205FEFD2F64E55328F7EC2E46135_gshared (WhereSelectListIterator_2_t00F7955A5BD66BA29C2E84960E57A75FF1F41688 * __this, Func_2_t7EE965B791A606D187CCB69569A433D4CBB36879 * ___selector0, const RuntimeMethod* method)
 {

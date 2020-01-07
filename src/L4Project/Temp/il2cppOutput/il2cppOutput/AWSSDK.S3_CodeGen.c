@@ -1654,7 +1654,7 @@ static const int32_t s_InvokerIndices[528] =
 	14,
 	3,
 	26,
-	2069,
+	2087,
 	14,
 	26,
 	26,
@@ -1850,7 +1850,7 @@ static const int32_t s_InvokerIndices[528] =
 	26,
 	26,
 	26,
-	2070,
+	2088,
 	26,
 	26,
 	32,
@@ -2101,8 +2101,8 @@ static const int32_t s_InvokerIndices[528] =
 	3,
 	3,
 	23,
-	1941,
 	1959,
+	1977,
 	26,
 	28,
 	26,
@@ -2138,8 +2138,8 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[2] = 
 {
-	{ (Il2CppRGCTXDataType)1, 27659 },
-	{ (Il2CppRGCTXDataType)2, 27659 },
+	{ (Il2CppRGCTXDataType)1, 27823 },
+	{ (Il2CppRGCTXDataType)2, 27823 },
 };
 extern const Il2CppCodeGenModule g_AWSSDK_S3CodeGenModule;
 const Il2CppCodeGenModule g_AWSSDK_S3CodeGenModule = 
