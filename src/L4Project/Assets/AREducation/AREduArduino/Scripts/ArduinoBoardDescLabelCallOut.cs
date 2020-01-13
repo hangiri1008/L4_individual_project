@@ -10,8 +10,9 @@ public class ArduinoBoardDescLabelCallOut : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        arduino_DescPointingLine.startWidth = 0.01f;
-        arduino_DescPointingLine.endWidth = 0.01f;
+        arduino_DescPointingLine.startWidth = 0.00f;
+        arduino_DescPointingLine.endWidth = 0.02f;
+        arduino_DescPointingLine.material.color = Color.white;
     }
 
     // Update is called once per frame
