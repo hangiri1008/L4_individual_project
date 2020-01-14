@@ -4,52 +4,31 @@ using UnityEngine;
 
 public class PlusMenuManager : MonoBehaviour
 {
-    //Note: Animator Array does not exist
-    //Therefore, custom lists of plus menus (expected to perform as an array).
-    private List<Animator> plusMenuList;
-    public GameObject[] Menus;
+    public GameObject MenuScreenUI;
+    bool isMenuScreenActive = false;
 
-    public bool buttonAbled = false;
-
-    void Start()
+    public void ClickPlusMenu()
     {
-        plusMenuList = new List<Animator>();
-        for (int i = 0; i < Menus.Length; i++)
+        if (isMenuScreenActive)
         {
-            plusMenuList.Add(Menus[i].GetComponent<Animator>());
+            DisableMenuScreen(); 
+        }
+        else
+        {
+            AbleMenuScreen();
         }
     }
 
-    public void PressPlusButton()
+    private void AbleMenuScreen()
     {
-        if (buttonAbled == false)
-        {
-            buttonAbled = true;
-            foreach (Animator menu in plusMenuList)
-            {
-                while (menu.GetCurrentAnimatorStateInfo(0).IsName("BoardDescButton_Disabled") && menu.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
-                {
+        isMenuScreenActive = true;
+        MenuScreenUI.SetActive(true);
+    }
 
-                }
+    private void DisableMenuScreen()
+    {
 
-                //Do something
-                menu.SetBool("plusButtonAbled", buttonAbled);
-            }
-        }
-
-        else
-        {
-            buttonAbled = false;
-            foreach (Animator menu in plusMenuList)
-            {
-                while (menu.GetCurrentAnimatorStateInfo(0).IsName("BoardDescButton_Abled") && menu.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
-                {
-
-                }
-
-                menu.SetBool("plusButtonAbled", buttonAbled);
-            }
-        }
-        
+        isMenuScreenActive = false;
+        MenuScreenUI.SetActive(false);
     }
 }

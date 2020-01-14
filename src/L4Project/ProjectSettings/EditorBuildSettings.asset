@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AR Education/AREduArduino.unity
+    path: Assets/Scenes/AR Education/temp.unity
     guid: 8f4cf766222ac45c7a07956a04acad1c
   m_configObjects: {}

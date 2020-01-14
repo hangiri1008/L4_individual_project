@@ -6,7 +6,13 @@ using UnityEngine.UI;
 public class CardUIManager : MonoBehaviour
 {
     //Animation for each cards in the array
-    public Animator[] cardAnim;
+    public Animator firstCardAnim;
+    public Animator secondCardAnim;
+    public Animator thirdCardAnim;
+    public Animator fourthCardAnim;
+    public Animator fifthCardAnim;
+    public Animator sixthCardAnim;
+
     public int currentCardAnim = 0;
     private int minCardAnim = 0;
     private int maxCardAnim = 11;
@@ -16,10 +22,12 @@ public class CardUIManager : MonoBehaviour
         if (currentCardAnim < maxCardAnim)
         {
             currentCardAnim++;
-            for(int i=0; cardAnim.Length< i; i++)
-            {
-                cardAnim[i].SetInteger("NextAnimation", currentCardAnim);
-            }
+            firstCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            secondCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            thirdCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            fourthCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            fifthCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            sixthCardAnim.SetInteger("NextAnimation", currentCardAnim);
         }
 
 
@@ -29,18 +37,22 @@ public class CardUIManager : MonoBehaviour
         if (minCardAnim < currentCardAnim)
         {
             currentCardAnim--;
-            for (int i = 0; cardAnim.Length < i; i++)
-            {
-                cardAnim[i].SetInteger("NextAnimation", currentCardAnim);
-            }
+            firstCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            secondCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            thirdCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            fourthCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            fifthCardAnim.SetInteger("NextAnimation", currentCardAnim);
+            sixthCardAnim.SetInteger("NextAnimation", currentCardAnim);
         }
     }
     public void ResetButton()
     {
         currentCardAnim = minCardAnim;
-        for (int i = 0; cardAnim.Length < i; i++)
-        {
-            cardAnim[i].SetInteger("NextAnimation", currentCardAnim);
-        }
+        firstCardAnim.SetInteger("NextAnimation", currentCardAnim);
+        secondCardAnim.SetInteger("NextAnimation", currentCardAnim);
+        thirdCardAnim.SetInteger("NextAnimation", currentCardAnim);
+        fourthCardAnim.SetInteger("NextAnimation", currentCardAnim);
+        fifthCardAnim.SetInteger("NextAnimation", currentCardAnim);
+        sixthCardAnim.SetInteger("NextAnimation", currentCardAnim);
     }
 }

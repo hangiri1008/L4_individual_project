@@ -64,11 +64,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoBoardDescLabelCallOut.cs" />
+    <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoBoardDescUI.cs" />
+    <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoQuizzesUI.cs" />
     <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\CardUIManager.cs" />
     <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\SortingAlgorithmMainUI.cs" />
     <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\UIManager_AR_Education.cs" />
     <Compile Include="Assets\AREducation\Scripts\AREduMainUI.cs" />
+    <Compile Include="Assets\AREducation\Scripts\MoreInfoManager.cs" />
     <Compile Include="Assets\AREducation\Scripts\PlusMenuManager.cs" />
+    <Compile Include="Assets\AREducation\Scripts\Temp.cs" />
+    <Compile Include="Assets\AREducation\Scripts\Temp2.cs" />
     <Compile Include="Assets\ARLocation\Scripts\ARLocation.cs" />
     <Compile Include="Assets\ARLocation\Scripts\ARSession\ARFoundationSessionManager.cs" />
     <Compile Include="Assets\ARLocation\Scripts\ARSession\IARSessionManager.cs" />
