@@ -63,13 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoBoardDescLabelCallOut.cs" />
     <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoBoardDescUI.cs" />
+    <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoInfoScreenUI.cs" />
     <Compile Include="Assets\AREducation\AREduArduino\Scripts\ArduinoQuizzesUI.cs" />
+    <Compile Include="Assets\AREducation\AREduMotherboard\Scripts\MotherBoardDescUI.cs" />
+    <Compile Include="Assets\AREducation\AREduMotherboard\Scripts\MotherBoardInfoScreenUI.cs" />
+    <Compile Include="Assets\AREducation\AREduMotherboard\Scripts\MotherBoardQuizzesUI.cs" />
     <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\CardUIManager.cs" />
     <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\SortingAlgorithmMainUI.cs" />
     <Compile Include="Assets\AREducation\AREduSortingAlgorithm\Scripts\UIManager_AR_Education.cs" />
     <Compile Include="Assets\AREducation\Scripts\AREduMainUI.cs" />
+    <Compile Include="Assets\AREducation\Scripts\DescLabelCallOut.cs" />
     <Compile Include="Assets\AREducation\Scripts\MoreInfoManager.cs" />
     <Compile Include="Assets\AREducation\Scripts\PlusMenuManager.cs" />
     <Compile Include="Assets\AREducation\Scripts\Temp.cs" />
@@ -192,10 +196,10 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\ARLocation\Materials\Shaders\ShadowDrawer.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\UniEyesDB.xml" />
     <None Include="Assets\Lean\Common\Examples\Shaders\Alpha.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\StreamingAssets\Vuforia\UniEyesDB.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
