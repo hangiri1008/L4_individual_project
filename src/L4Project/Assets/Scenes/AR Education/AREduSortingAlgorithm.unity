@@ -5271,7 +5271,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Please place the star wars playing card pictures in the middle of your phone
+  m_text: Please place the star wars playing card picture in the middle of your phone
     screen. To get the picture, please click the link button below.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c5057becce774aa3b9fafe0fdeed498, type: 2}

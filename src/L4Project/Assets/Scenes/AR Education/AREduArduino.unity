@@ -11793,7 +11793,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Please place the arduino pictures in the middle of your phone screen. To
+  m_text: Please place the arduino picture in the middle of your phone screen. To
     get the picture, please click the link button below. Press + button below to see
     board component descriptons and quizzes
   m_isRightToLeft: 0
