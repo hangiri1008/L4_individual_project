@@ -8052,6 +8052,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615573952}
   m_CullTransparentMesh: 0
+--- !u!1 &620558002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 620558003}
+  - component: {fileID: 620558004}
+  m_Layer: 0
+  m_Name: Board Description
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &620558003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620558002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &620558004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620558002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Board Description
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "Descripci\xF3n del tablero"
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\u677F\u5B50\u8BF4\u660E"
+    Object: {fileID: 0}
 --- !u!1 &625622308
 GameObject:
   m_ObjectHideFlags: 0
@@ -8145,6 +8199,60 @@ Transform:
   m_Father: {fileID: 340930757}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &631898536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 631898537}
+  - component: {fileID: 631898538}
+  m_Layer: 0
+  m_Name: How To Use ?
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &631898537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631898536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &631898538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631898536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: How To Use ?
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "C\xF3mo utilizar ?"
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\u5982\u4F55\u4F7F\u7528 ?"
+    Object: {fileID: 0}
 --- !u!1 &649973180
 GameObject:
   m_ObjectHideFlags: 0
@@ -8537,6 +8645,111 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663314286}
   m_CullTransparentMesh: 0
+--- !u!1 &695696599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 695696601}
+  - component: {fileID: 695696600}
+  m_Layer: 0
+  m_Name: LeanLocalization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &695696600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695696599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultLanguage: 
+  DetectLanguage: 1
+  SaveLanguage: 1
+  languages:
+  - name: English
+    cultures:
+    - en
+    - en-GB
+    - en-US
+    - en-AU
+    - en-CA
+    - en-NZ
+    - en-IE
+    - en-ZA
+    - en-JM
+    - en-en029
+    - en-BZ
+    - en-BZ
+    - en-TT
+    - en-ZW
+    - en-PH
+  - name: Spanish
+    cultures:
+    - es
+    - es-ES
+    - es-MX
+    - es-GT
+    - es-CR
+    - es-PA
+    - es-DO
+    - es-VE
+    - es-CO
+    - es-PE
+    - es-AR
+    - es-EC
+    - es-CL
+    - es-UY
+    - es-PY
+    - es-BO
+    - es-SV
+    - es-SV
+    - es-HN
+    - es-NI
+    - es-PR
+  - name: Chinese
+    cultures:
+    - ChineseSimplified
+    - ChineseTraditional
+    - zh
+    - zh-TW
+    - zh-CN
+    - zh-HK
+    - zh-SG
+    - zh-MO
+  prefabs: []
+--- !u!4 &695696601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695696599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 928729306}
+  - {fileID: 631898537}
+  - {fileID: 1413460555}
+  - {fileID: 746835627}
+  - {fileID: 620558003}
+  - {fileID: 1309219367}
+  - {fileID: 926157779}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &699247808
 GameObject:
   m_ObjectHideFlags: 0
@@ -9193,6 +9406,60 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &746835626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 746835627}
+  - component: {fileID: 746835628}
+  m_Layer: 0
+  m_Name: Link
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &746835627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746835626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &746835628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746835626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Link
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: Enlace
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\u94FE\u63A5"
+    Object: {fileID: 0}
 --- !u!1 &756380838
 GameObject:
   m_ObjectHideFlags: 0
@@ -11795,7 +12062,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Please place the arduino picture in the middle of your phone screen. To
     get the picture, please click the link button below. Press + button below to see
-    board component descriptons and quizzes
+    board component descriptons and quizzes.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5c5057becce774aa3b9fafe0fdeed498, type: 2}
   m_sharedMaterial: {fileID: -7450933410041104905, guid: 5c5057becce774aa3b9fafe0fdeed498,
@@ -12340,6 +12607,307 @@ RectTransform:
   m_AnchoredPosition: {x: -341.74, y: -317}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &926157778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926157779}
+  - component: {fileID: 926157780}
+  m_Layer: 0
+  m_Name: " 1) Power USB - Arduino board can be powered by using the USB cable from
+    your computer.All you need to do is connect the USB cable to the USB connection.
+    \ 2) Power(Barrel Jack) - Arduino boards can be powered directly from the AC mains
+    power supply by connecting it to the Barrel Jack.  3) Voltage Regulator - The
+    function of the voltage regulator is to control the voltage given to the Arduino
+    board and stabilize the DC voltages used by the processor and other elements.
+    \ 4) Crystal Oscillator - The crystal oscillator helps Arduino in dealing with
+    time issues.How does Arduino calculate time? The answer is, by using the crystal
+    oscillator.The number printed on top of the Arduino crystal is 16.000H9H.It tells
+    us that the frequency is 16,000,000 Hertz or 16 MHz.  5, 17) Arduino Reset - You
+    can reset your Arduino board, i.e., start your program from the beginning.You
+    can reset the UNO board in two ways. First, by using the reset button(17) on the
+    board.Second, you can connect an external reset button to the Arduino pin labelled
+    RESET(5).  6) 3.3V \u2212 Supply 3.3 output volt.  7) 5V \u2212 Supply 5 output
+    volt (Most of the components used with Arduino board works fine with 3.3 volt
+    and 5 volt).  8) GND(Ground) \u2212 There are several GND pins on the Arduino,
+    any of which can be used to ground your circuit.  9) Vin \u2212 This pin also
+    can be used to power the Arduino board from an external power source, like AC
+    mains power supply.  10) Analog pins - The Arduino UNO board has six analog input
+    pins A0 through A5. These pins can read the signal from an analog sensor like
+    the humidity sensor or temperature sensor and convert it into a digital value
+    that can be read by the microprocessor.  11) Main microcontroller - Each Arduino
+    board has its own microcontroller. You can assume it as the brain of your board.
+    The main IC (integrated circuit) on the Arduino is slightly different from board
+    to board. The microcontrollers are usually of the ATMEL Company. You must know
+    what IC your board has before loading up a new program from the Arduino IDE. This
+    information is available on the top of the IC.   12) ICSP pin - Mostly, ICSP is
+    an AVR, a tiny programming header for the Arduino consisting of MOSI, MISO, SCK,
+    RESET, VCC, and GND. It is often referred to as an SPI (Serial Peripheral Interface),
+    which could be considered as an \"expansion\" of the output. Actually, you are
+    slaving the output device to the master of the SPI bus.  13) Power LED indicator
+    - This LED should light up when you plug your Arduino into a power source to indicate
+    that your board is powered up correctly. If this light does not turn on, then
+    there is something wrong with the connection.  14) TX and RX LEDs - TX stands
+    for transmit) and RX stands for receive. They appear in two places on the Arduino
+    UNO board. First, at the digital pins 0 and 1, to indicate the pins responsible
+    for serial communication. Second, the TX and RX led. The TX led flashes with different
+    speed while sending the serial data. The speed of flashing depends on the baud
+    rate used by the board. RX flashes during the receiving process.  15) Digital
+    I/O - The Arduino UNO board has 14 digital I/O pins (of which 6 provide PWM (Pulse
+    Width Modulation) output. These pins can be configured to work as input digital
+    pins to read logic values (0 or 1) or as digital output pins to drive different
+    modules like LEDs, relays, etc. The pins labeled \u201C~\u201D can be used to
+    generate PWM.  16) AREF - AREF stands for Analog Reference. It is sometimes, used
+    to set an external reference voltage (between 0 and 5 Volts) as the upper limit
+    for the analog input pins."
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &926157779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926157778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &926157780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926157778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "\r\n1) Power USB - Arduino board can be powered by using the USB cable
+      from your computer.All you need to do is connect the USB cable to the USB connection.\n\n2)
+      Power(Barrel Jack) - Arduino boards can be powered directly from the AC mains
+      power supply by connecting it to the Barrel Jack.\n\n3) Voltage Regulator -
+      The function of the voltage regulator is to control the voltage given to the
+      Arduino board and stabilize the DC voltages used by the processor and other
+      elements.\n\n4) Crystal Oscillator - The crystal oscillator helps Arduino in
+      dealing with time issues.How does Arduino calculate time? The answer is, by
+      using the crystal oscillator.The number printed on top of the Arduino crystal
+      is 16.000H9H.It tells us that the frequency is 16,000,000 Hertz or 16 MHz.\n\n5,
+      17) Arduino Reset - You can reset your Arduino board, i.e., start your program
+      from the beginning.You can reset the UNO board in two ways. First, by using
+      the reset button(17) on the board.Second, you can connect an external reset
+      button to the Arduino pin labelled RESET(5).\n\n6) 3.3V \u2212 Supply 3.3 output
+      volt.\n\n7) 5V \u2212 Supply 5 output volt (Most of the components used with
+      Arduino board works fine with 3.3 volt and 5 volt).\n\n8) GND(Ground) \u2212
+      There are several GND pins on the Arduino, any of which can be used to ground
+      your circuit.\n\n9) Vin \u2212 This pin also can be used to power the Arduino
+      board from an external power source, like AC mains power supply.\n\n10) Analog
+      pins - The Arduino UNO board has six analog input pins A0 through A5. These
+      pins can read the signal from an analog sensor like the humidity sensor or temperature
+      sensor and convert it into a digital value that can be read by the microprocessor.\n\n11)
+      Main microcontroller - Each Arduino board has its own microcontroller. You can
+      assume it as the brain of your board. The main IC (integrated circuit) on the
+      Arduino is slightly different from board to board. The microcontrollers are
+      usually of the ATMEL Company. You must know what IC your board has before loading
+      up a new program from the Arduino IDE. This information is available on the
+      top of the IC. \n\n12) ICSP pin - Mostly, ICSP is an AVR, a tiny programming
+      header for the Arduino consisting of MOSI, MISO, SCK, RESET, VCC, and GND. It
+      is often referred to as an SPI (Serial Peripheral Interface), which could be
+      considered as an \"expansion\" of the output. Actually, you are slaving the
+      output device to the master of the SPI bus.\n\n13) Power LED indicator - This
+      LED should light up when you plug your Arduino into a power source to indicate
+      that your board is powered up correctly. If this light does not turn on, then
+      there is something wrong with the connection.\n\n14) TX and RX LEDs - TX stands
+      for transmit) and RX stands for receive. They appear in two places on the Arduino
+      UNO board. First, at the digital pins 0 and 1, to indicate the pins responsible
+      for serial communication. Second, the TX and RX led. The TX led flashes with
+      different speed while sending the serial data. The speed of flashing depends
+      on the baud rate used by the board. RX flashes during the receiving process.\n\n15)
+      Digital I/O - The Arduino UNO board has 14 digital I/O pins (of which 6 provide
+      PWM (Pulse Width Modulation) output. These pins can be configured to work as
+      input digital pins to read logic values (0 or 1) or as digital output pins to
+      drive different modules like LEDs, relays, etc. The pins labeled \u201C~\u201D
+      can be used to generate PWM.\n\n16) AREF - AREF stands for Analog Reference.
+      It is sometimes, used to set an external reference voltage (between 0 and 5
+      Volts) as the upper limit for the analog input pins."
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\n1) Power USB - Arduino\u5F00\u53D1\u677F\u53EF\u4EE5\u901A\u8FC7\u8BA1\u7B97\u673A\u4E0A\u7684USB\u7535\u7F06\u4F9B\u7535,
+      \u53EA\u9700\u5C06USB\u7535\u7F06\u8FDE\u63A5\u5230USB\u8FDE\u63A5\u5373\u53EF.\n\n2)
+      Power(Barrel Jack) - Arduino boards can be powered directly from the AC mains
+      power supply by connecting it to the Barrel Jack.\n\n3) Voltage Regulator -
+      The function of the voltage regulator is to control the voltage given to the
+      Arduino board and stabilize the DC voltages used by the processor and other
+      elements.\n\n4) Crystal Oscillator - The crystal oscillator helps Arduino in
+      dealing with time issues.How does Arduino calculate time? The answer is, by
+      using the crystal oscillator.The number printed on top of the Arduino crystal
+      is 16.000H9H.It tells us that the frequency is 16,000,000 Hertz or 16 MHz.\n\n5,
+      17) Arduino Reset - You can reset your Arduino board, i.e., start your program
+      from the beginning.You can reset the UNO board in two ways. First, by using
+      the reset button(17) on the board.Second, you can connect an external reset
+      button to the Arduino pin labelled RESET(5).\n\n6) 3.3V \u2212 Supply 3.3 output
+      volt.\n\n7) 5V \u2212 Supply 5 output volt (Most of the components used with
+      Arduino board works fine with 3.3 volt and 5 volt).\n\n8) GND(Ground) \u2212
+      There are several GND pins on the Arduino, any of which can be used to ground
+      your circuit.\n\n9) Vin \u2212 This pin also can be used to power the Arduino
+      board from an external power source, like AC mains power supply.\n\n10) Analog
+      pins - The Arduino UNO board has six analog input pins A0 through A5. These
+      pins can read the signal from an analog sensor like the humidity sensor or temperature
+      sensor and convert it into a digital value that can be read by the microprocessor.\n\n11)
+      Main microcontroller - Each Arduino board has its own microcontroller. You can
+      assume it as the brain of your board. The main IC (integrated circuit) on the
+      Arduino is slightly different from board to board. The microcontrollers are
+      usually of the ATMEL Company. You must know what IC your board has before loading
+      up a new program from the Arduino IDE. This information is available on the
+      top of the IC. \n\n12) ICSP pin - Mostly, ICSP is an AVR, a tiny programming
+      header for the Arduino consisting of MOSI, MISO, SCK, RESET, VCC, and GND. It
+      is often referred to as an SPI (Serial Peripheral Interface), which could be
+      considered as an \"expansion\" of the output. Actually, you are slaving the
+      output device to the master of the SPI bus.\n\n13) Power LED indicator - This
+      LED should light up when you plug your Arduino into a power source to indicate
+      that your board is powered up correctly. If this light does not turn on, then
+      there is something wrong with the connection.\n\n14) TX and RX LEDs - TX stands
+      for transmit) and RX stands for receive. They appear in two places on the Arduino
+      UNO board. First, at the digital pins 0 and 1, to indicate the pins responsible
+      for serial communication. Second, the TX and RX led. The TX led flashes with
+      different speed while sending the serial data. The speed of flashing depends
+      on the baud rate used by the board. RX flashes during the receiving process.\n\n15)
+      Digital I/O - The Arduino UNO board has 14 digital I/O pins (of which 6 provide
+      PWM (Pulse Width Modulation) output. These pins can be configured to work as
+      input digital pins to read logic values (0 or 1) or as digital output pins to
+      drive different modules like LEDs, relays, etc. The pins labeled \u201C~\u201D
+      can be used to generate PWM.\n\n16) AREF - AREF stands for Analog Reference.
+      It is sometimes, used to set an external reference voltage (between 0 and 5
+      Volts) as the upper limit for the analog input pins."
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "\n1) Power USB - La placa Arduino se puede alimentar mediante el cable
+      USB de su computadora. Todo lo que necesita hacer es conectar el cable USB a
+      la conexi\xF3n USB.\n\n2) Power(Barrel Jack) - Arduino boards can be powered
+      directly from the AC mains power supply by connecting it to the Barrel Jack.\n\n3)
+      Voltage Regulator - The function of the voltage regulator is to control the
+      voltage given to the Arduino board and stabilize the DC voltages used by the
+      processor and other elements.\n\n4) Crystal Oscillator - The crystal oscillator
+      helps Arduino in dealing with time issues.How does Arduino calculate time? The
+      answer is, by using the crystal oscillator.The number printed on top of the
+      Arduino crystal is 16.000H9H.It tells us that the frequency is 16,000,000 Hertz
+      or 16 MHz.\n\n5, 17) Arduino Reset - You can reset your Arduino board, i.e.,
+      start your program from the beginning.You can reset the UNO board in two ways.
+      First, by using the reset button(17) on the board.Second, you can connect an
+      external reset button to the Arduino pin labelled RESET(5).\n\n6) 3.3V \u2212
+      Supply 3.3 output volt.\n\n7) 5V \u2212 Supply 5 output volt (Most of the components
+      used with Arduino board works fine with 3.3 volt and 5 volt).\n\n8) GND(Ground)
+      \u2212 There are several GND pins on the Arduino, any of which can be used to
+      ground your circuit.\n\n9) Vin \u2212 This pin also can be used to power the
+      Arduino board from an external power source, like AC mains power supply.\n\n10)
+      Analog pins - The Arduino UNO board has six analog input pins A0 through A5.
+      These pins can read the signal from an analog sensor like the humidity sensor
+      or temperature sensor and convert it into a digital value that can be read by
+      the microprocessor.\n\n11) Main microcontroller - Each Arduino board has its
+      own microcontroller. You can assume it as the brain of your board. The main
+      IC (integrated circuit) on the Arduino is slightly different from board to board.
+      The microcontrollers are usually of the ATMEL Company. You must know what IC
+      your board has before loading up a new program from the Arduino IDE. This information
+      is available on the top of the IC. \n\n12) ICSP pin - Mostly, ICSP is an AVR,
+      a tiny programming header for the Arduino consisting of MOSI, MISO, SCK, RESET,
+      VCC, and GND. It is often referred to as an SPI (Serial Peripheral Interface),
+      which could be considered as an \"expansion\" of the output. Actually, you are
+      slaving the output device to the master of the SPI bus.\n\n13) Power LED indicator
+      - This LED should light up when you plug your Arduino into a power source to
+      indicate that your board is powered up correctly. If this light does not turn
+      on, then there is something wrong with the connection.\n\n14) TX and RX LEDs
+      - TX stands for transmit) and RX stands for receive. They appear in two places
+      on the Arduino UNO board. First, at the digital pins 0 and 1, to indicate the
+      pins responsible for serial communication. Second, the TX and RX led. The TX
+      led flashes with different speed while sending the serial data. The speed of
+      flashing depends on the baud rate used by the board. RX flashes during the receiving
+      process.\n\n15) Digital I/O - The Arduino UNO board has 14 digital I/O pins
+      (of which 6 provide PWM (Pulse Width Modulation) output. These pins can be configured
+      to work as input digital pins to read logic values (0 or 1) or as digital output
+      pins to drive different modules like LEDs, relays, etc. The pins labeled \u201C~\u201D
+      can be used to generate PWM.\n\n16) AREF - AREF stands for Analog Reference.
+      It is sometimes, used to set an external reference voltage (between 0 and 5
+      Volts) as the upper limit for the analog input pins."
+    Object: {fileID: 0}
+--- !u!1 &928729305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928729306}
+  - component: {fileID: 928729307}
+  m_Layer: 0
+  m_Name: Arduino is a prototype platform based on an easy-to-use hardware and software.
+    It consists of a circuit board, which can be programed and a ready-made software
+    called Arduino IDE, which is used to write and upload the computer code to the
+    physical board.
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928729306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928729305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928729307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928729305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Arduino is a prototype platform based on an easy-to-use hardware and software.
+      It consists of a circuit board, which can be programed and a ready-made software
+      called Arduino IDE, which is used to write and upload the computer code to the
+      physical board.
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "Arduino es una plataforma prototipo basada en un hardware y software f\xE1cil
+      de usar. Consiste en una placa de circuito, que se puede programar y un software
+      listo para usar llamado Arduino IDE, que se utiliza para escribir y cargar el
+      c\xF3digo de la computadora en la placa f\xEDsica."
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "Arduino\u662F\u57FA\u4E8E\u6613\u4E8E\u4F7F\u7528\u7684\u786C\u4EF6\u548C\u8F6F\u4EF6\u7684\u539F\u578B\u5E73\u53F0\u3002\u5B83\u7531\u4E00\u5757\u53EF\u8FDB\u884C\u7F16\u7A0B\u7684\u7535\u8DEF\u677F\u548C\u4E00\u4E2A\u79F0\u4E3AArduino
+      IDE\u7684\u73B0\u6210\u8F6F\u4EF6\u7EC4\u6210\uFF0C\u8BE5\u8F6F\u4EF6\u7528\u4E8E\u5C06\u8BA1\u7B97\u673A\u4EE3\u7801\u7F16\u5199\u5E76\u4E0A\u4F20\u5230\u7269\u7406\u677F\u4E0A\u3002"
+    Object: {fileID: 0}
 --- !u!1 &929394360
 GameObject:
   m_ObjectHideFlags: 0
@@ -17157,6 +17725,60 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Axis: {x: 0, y: 0, z: -1}
   Space: 1
+--- !u!1 &1309219366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1309219367}
+  - component: {fileID: 1309219368}
+  m_Layer: 0
+  m_Name: Quizzes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1309219367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309219366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1309219368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309219366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: Quizzes
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\u6D4B\u9A8C"
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: Cuestionarios
+    Object: {fileID: 0}
 --- !u!1 &1312660272
 GameObject:
   m_ObjectHideFlags: 0
@@ -19283,6 +19905,69 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405158441}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1413460554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1413460555}
+  - component: {fileID: 1413460556}
+  m_Layer: 0
+  m_Name: Please place the arduino picture in the middle of your phone screen. To
+    get the picture, please click the link button below. Press + button below to see
+    board component descriptons and quizzes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1413460555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413460554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1413460556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413460554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Spanish
+    Text: "Coloque la imagen de arduino en el medio de la pantalla de su tel\xE9fono.
+      Para obtener la imagen, haga clic en el bot\xF3n de enlace a continuaci\xF3n.
+      Presione el bot\xF3n + a continuaci\xF3n para ver las descripciones y pruebas
+      de los componentes del tablero."
+    Object: {fileID: 0}
+  - Language: English
+    Text: Please place the arduino picture in the middle of your phone screen. To
+      get the picture, please click the link button below. Press + button below to
+      see board component descriptons and quizzes.
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\u8BF7\u5C06arduino\u56FE\u7247\u653E\u5728\u624B\u673A\u5C4F\u5E55\u7684\u4E2D\u95F4.
+      \u8981\u83B7\u53D6\u56FE\u7247, \u8BF7\u5355\u51FB\u4E0B\u9762\u7684\u94FE\u63A5\u6309\u94AE.
+      \u6309\u4E0B\u9762\u7684+\u6309\u94AE\u67E5\u770B\u7535\u8DEF\u677F\u7EC4\u4EF6\u7684\u63CF\u8FF0\u548C\u6D4B\u9A8C."
+    Object: {fileID: 0}
 --- !u!1 &1414240279
 GameObject:
   m_ObjectHideFlags: 0

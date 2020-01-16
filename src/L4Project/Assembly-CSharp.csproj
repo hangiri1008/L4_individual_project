@@ -222,6 +222,7 @@
     <None Include="Assets\Lean\Common\Examples\Shaders\Alpha.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Fonts\allchineseletters.txt" />
     <None Include="Assets\Lean\Localization\Texts\English.txt" />
     <None Include="Assets\Lean\Localization\Texts\Spanish.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />

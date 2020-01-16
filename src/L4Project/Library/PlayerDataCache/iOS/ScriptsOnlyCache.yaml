@@ -1,25 +1,49 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AREduMainUI
     - ARLocation.ARLocationConfig
-    - ArduinoBoardDescLabelCallOut
-    - ArduinoMainUI
+    - ARLocation.ARLocationManager
+    - ARLocation.ARLocationOrientation
+    - ARLocation.ARLocationProvider
+    - ARLocation.PlaceAtLocation
+    - AWSManager
+    - ArduinoBoardDescUI
+    - ArduinoInfoScreenUI
+    - ArduinoQuizzesUI
+    - CardUIManager
+    - DescLabelCallOut
+    - DropdownManager
+    - Lean.Localization.LeanLocalization
+    - Lean.Localization.LeanLocalizedText
+    - Lean.Localization.LeanPhrase
+    - Lean.Localization.LeanToken
     - Lean.Touch.LeanPinchScale
     - Lean.Touch.LeanTouch
     - Lean.Touch.LeanTwistRotateAxis
+    - MoreInfoManager
+    - MotherBoardDescUI
+    - NativeGalleryPlugin
+    - PlusMenuManager
     - SceneLoader
+    - SortingAlgorithmMainUI
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TMP_SubMesh
+    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -31,6 +55,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
     Vuforia.UnityExtensions.dll:
     - Vuforia.AnchorBehaviour
     - Vuforia.AnchorInputListenerBehaviour
@@ -63,76 +92,70 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 109
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9778}
+      Script: {instanceID: 9782}
     - Class: 114
-      Script: {instanceID: 10020}
+      Script: {instanceID: 10028}
     - Class: 114
-      Script: {instanceID: 10158}
+      Script: {instanceID: 10168}
     - Class: 114
-      Script: {instanceID: 10350}
+      Script: {instanceID: 10294}
     - Class: 114
-      Script: {instanceID: 10464}
+      Script: {instanceID: 10360}
     - Class: 114
-      Script: {instanceID: 10476}
+      Script: {instanceID: 10380}
     - Class: 114
-      Script: {instanceID: 10504}
+      Script: {instanceID: 10488}
     - Class: 114
-      Script: {instanceID: 10574}
+      Script: {instanceID: 10614}
     - Class: 114
-      Script: {instanceID: 10580}
+      Script: {instanceID: 10636}
     - Class: 114
-      Script: {instanceID: 10602}
+      Script: {instanceID: 10644}
     - Class: 114
-      Script: {instanceID: 10618}
+      Script: {instanceID: 10904}
     - Class: 114
-      Script: {instanceID: 10624}
+      Script: {instanceID: 11142}
     - Class: 114
-      Script: {instanceID: 10632}
+      Script: {instanceID: 11198}
     - Class: 114
-      Script: {instanceID: 10634}
+      Script: {instanceID: 11210}
     - Class: 114
-      Script: {instanceID: 10690}
+      Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 10698}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11130}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 11196}
+      Script: {instanceID: 11632}
     - Class: 114
-      Script: {instanceID: 11366}
+      Script: {instanceID: 11674}
     - Class: 114
-      Script: {instanceID: 11398}
+      Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11854}
     - Class: 114
-      Script: {instanceID: 11586}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11618}
+      Script: {instanceID: 12028}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 11688}
+      Script: {instanceID: 12238}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 39848}
     - Class: 114
-      Script: {instanceID: 11880}
+      Script: {instanceID: 180802}
     - Class: 114
-      Script: {instanceID: 12004}
+      Script: {instanceID: 200994}
     - Class: 114
-      Script: {instanceID: 12214}
-    - Class: 114
-      Script: {instanceID: 19906}
+      Script: {instanceID: 310906}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -150,6 +173,405 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/AR Education/AREduMain.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 9842}
+    - Class: 114
+      Script: {instanceID: 10028}
+    - Class: 114
+      Script: {instanceID: 10488}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11412}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11674}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/AR Education/AREduMotherboard.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 10028}
+    - Class: 114
+      Script: {instanceID: 10168}
+    - Class: 114
+      Script: {instanceID: 10294}
+    - Class: 114
+      Script: {instanceID: 10360}
+    - Class: 114
+      Script: {instanceID: 10380}
+    - Class: 114
+      Script: {instanceID: 10488}
+    - Class: 114
+      Script: {instanceID: 10614}
+    - Class: 114
+      Script: {instanceID: 10636}
+    - Class: 114
+      Script: {instanceID: 10644}
+    - Class: 114
+      Script: {instanceID: 10904}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11198}
+    - Class: 114
+      Script: {instanceID: 11210}
+    - Class: 114
+      Script: {instanceID: 11380}
+    - Class: 114
+      Script: {instanceID: 11412}
+    - Class: 114
+      Script: {instanceID: 11600}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11674}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 11854}
+    - Class: 114
+      Script: {instanceID: 11868}
+    - Class: 114
+      Script: {instanceID: 12028}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 180802}
+    - Class: 114
+      Script: {instanceID: 200994}
+    - Class: 114
+      Script: {instanceID: 310906}
+    - Class: 114
+      Script: {instanceID: 539410}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/AR Education/AREduSortingAlgorithm.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 9910}
+    - Class: 114
+      Script: {instanceID: 10028}
+    - Class: 114
+      Script: {instanceID: 10360}
+    - Class: 114
+      Script: {instanceID: 10488}
+    - Class: 114
+      Script: {instanceID: 10614}
+    - Class: 114
+      Script: {instanceID: 10636}
+    - Class: 114
+      Script: {instanceID: 10644}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11380}
+    - Class: 114
+      Script: {instanceID: 11412}
+    - Class: 114
+      Script: {instanceID: 11582}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11674}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 17140}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/AR Map/ARMap.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 9922}
+    - Class: 114
+      Script: {instanceID: 10028}
+    - Class: 114
+      Script: {instanceID: 10586}
+    - Class: 114
+      Script: {instanceID: 10592}
+    - Class: 114
+      Script: {instanceID: 10630}
+    - Class: 114
+      Script: {instanceID: 10708}
+    - Class: 114
+      Script: {instanceID: 10828}
+    - Class: 114
+      Script: {instanceID: 10930}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11272}
+    - Class: 114
+      Script: {instanceID: 11412}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 12028}
+    - Class: 114
+      Script: {instanceID: 614388}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Main.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9768}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 9834}
+    - Class: 114
+      Script: {instanceID: 9980}
+    - Class: 114
+      Script: {instanceID: 9982}
+    - Class: 114
+      Script: {instanceID: 10028}
+    - Class: 114
+      Script: {instanceID: 10294}
+    - Class: 114
+      Script: {instanceID: 10380}
+    - Class: 114
+      Script: {instanceID: 10476}
+    - Class: 114
+      Script: {instanceID: 10488}
+    - Class: 114
+      Script: {instanceID: 10516}
+    - Class: 114
+      Script: {instanceID: 10646}
+    - Class: 114
+      Script: {instanceID: 10904}
+    - Class: 114
+      Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11412}
+    - Class: 114
+      Script: {instanceID: 11430}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11674}
+    - Class: 114
+      Script: {instanceID: 11706}
+    - Class: 114
+      Script: {instanceID: 11902}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 12254}
+    - Class: 114
+      Script: {instanceID: 575876}
+    - Class: 114
+      Script: {instanceID: 576294}
+    - Class: 114
+      Script: {instanceID: 576296}
+    - Class: 114
+      Script: {instanceID: 576304}
+    - Class: 114
+      Script: {instanceID: 576310}
+    - Class: 114
+      Script: {instanceID: 584466}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -738,12 +1160,6 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ArduinoMainUI
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
     namespaceName: ARLocation.UI
     className: DebugDistance
   - hash:
@@ -1104,6 +1520,12 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NativeGalleryPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
     namespaceName: ARLocation.Utils
     className: ShowHideSelfOnPointerClick
   - hash:
@@ -1396,10 +1818,16 @@ ScriptsOnlyBuild:
     className: DebugInfoOverlay
   - hash:
       serializedVersion: 2
-      Hash: 4a0812b7407b56744730a262e2b5eacb
+      Hash: ce4f55632addd5ad76291040ba7bd2a5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ArduinoBoardDescLabelCallOut
+    className: PlusMenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3dac1763bdfc7cc5a9139a3b2cc531f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DescLabelCallOut
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1982,7 +2410,150 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f243b9a6c7368b964a3909d1601f8ef1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArduinoBoardDescUI
+  - hash:
+      serializedVersion: 2
+      Hash: 904e38de09858e5f6106f04309e63795
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Temp
+  - hash:
+      serializedVersion: 2
+      Hash: d09cc3aeeb19b445e7ebbddfc9e87833
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Temp2
+  - hash:
+      serializedVersion: 2
+      Hash: 516abaf5db00e75ffa3483d0d51f5cd8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoreInfoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 063c4555f5d9f3a26916ec6b3c1a8b3e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArduinoQuizzesUI
+  - hash:
+      serializedVersion: 2
+      Hash: d47ddc716ef9efd0992a186c3e5ec71b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArduinoInfoScreenUI
+  - hash:
+      serializedVersion: 2
+      Hash: 241863f5954f341f1c8147be1ac8b02b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MotherBoardDescUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2c41c3f4dfa0df1e50dc3670a4f3fd3e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MotherBoardQuizzesUI
+  - hash:
+      serializedVersion: 2
+      Hash: d47ddc716ef9efd0992a186c3e5ec71b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MotherBoardInfoScreenUI
+  - hash:
+      serializedVersion: 2
+      Hash: 20e34497709a0d6b8581a770cf8f0be6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 7f959f067fec53f0ef89507d954b2baf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLanguageCSV
+  - hash:
+      serializedVersion: 2
+      Hash: 549fae01e40ade0b062e59a15ada4c04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedSpriteRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: d06f89c96382d672bf247f6dac8ee03e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedTextFont
+  - hash:
+      serializedVersion: 2
+      Hash: d0a4ae68074de4b1763e86da0a9e6490
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e988e3b046b67770f5a68c4b211946d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 549fae01e40ade0b062e59a15ada4c04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 5f0a1878b4792ac6d0fe1b5ac4d62202
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanToken
+  - hash:
+      serializedVersion: 2
+      Hash: 16b319a1ac7e425a5308867b8aa0b7eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalization
+  - hash:
+      serializedVersion: 2
+      Hash: 72be464cae07429f847cf1e15217fca3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedTextMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 72be464cae07429f847cf1e15217fca3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedText
+  - hash:
+      serializedVersion: 2
+      Hash: d06f89c96382d672bf247f6dac8ee03e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanLocalizedTextMeshFont
+  - hash:
+      serializedVersion: 2
+      Hash: 2121006cbf3554f331de83c71a4ef3d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Lean.Localization
+    className: LeanPhrase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropdownManager
   platform: 9
   scenePathNames:
+  - Assets/Scenes/Main.unity
+  - Assets/Scenes/AR Map/ARMap.unity
+  - Assets/Scenes/AR Education/AREduMain.unity
   - Assets/Scenes/AR Education/AREduArduino.unity
+  - Assets/Scenes/AR Education/AREduMotherboard.unity
+  - Assets/Scenes/AR Education/AREduSortingAlgorithm.unity
   playerPath: /Users/kohangil/Downloads/L4Project

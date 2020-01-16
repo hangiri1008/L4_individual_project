@@ -43,12 +43,12 @@
 ### 1 Oct 2019
 
 * *2 hours* Research different AR apps which is available in app store market
-* *1.5 hours* Research AR apps in education area
+* *2 hours* Research AR apps in education area
 
 ### 2 Oct 2019
 
 * *1.5 hours* Draw basic workflows
-* *1.5 hours* Draw Wireframe
+* *2 hours* Draw Wireframe
 
 ### 4 Oct 2019
 
@@ -71,8 +71,10 @@
 * *0.5 hour* Writing aims of the project
 
 ### 11 Oct 2019
-* *1 hour* 3rd Meeting with supervisor
-* *1 hour* Organizing the notes from the meeting and write a plan for todo lists
+* *1 hour* 3rd Meeting with supervisor 
+* *1 hour* Organizing the notes from the meeting and write a plan 
+
+## Week 4
 
 ### 14 Oct 2019
 * *2.5 hours* Reading references
@@ -84,7 +86,48 @@
 * *1.5 hours* Writing scenarios
 
 ### 17 Oct 2019
-* *1.5 hours* Writing MoSoCoW ananylse
+* *2 hours* Writing MoSoCoW requirements 
 
 ### 18 Oct 2019
+* *1 hour* 4th Meeting with supervisor
+* *1.5 hours* Writing scenarios
+
+## Week 5
+
+### 21 Oct 2019
+* *3 hours* Reading reference for wiritng analysis and justification
+
+### 22 Oct 2019
+* *3 hours* Writing background for related works 
+
+### 23 Oct 2019
+* *1.5 hours* Writing justification for AR 
+
+### 24 Oct 2019
+* *3.5 hours* Writing clarification for implementation
+
+### 25 Oct 2019
+* *1* 4th Meeting with supervisor
+
+### 26 Oct 2019
+* *1* 4th Meeting with supervisor
+
+## Week 6
+
+### 28 Oct 2019
+* *3 hours* Reading reference for wiritng analysis and justification
+
+### 29 Oct 2019
+* *3 hours* Writing background for related works 
+
+### 30 Oct 2019
+* *1.5 hours* Writing justification for AR 
+
+### 31 Oct 2019
+* *3.5 hours* Writing clarification for implementation
+
+### 1 Nov 2019
+* *1* 4th Meeting with supervisor
+
+### 2 Nov 2019
 * *1* 4th Meeting with supervisor
