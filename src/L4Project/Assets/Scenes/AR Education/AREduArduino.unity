@@ -1033,7 +1033,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2036004126}
+  - {fileID: 2012103037}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1241,6 +1241,7 @@ GameObject:
   - component: {fileID: 106851631}
   - component: {fileID: 106851633}
   - component: {fileID: 106851632}
+  - component: {fileID: 106851634}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1315,7 +1316,7 @@ MonoBehaviour:
     (1)Yes (2)No
 
 
-    Q5)  If we start by writing HIGH out on the pin connected to the LED.What will
+    Q5) If we start by writing HIGH out on the pin connected to the LED.What will
     it make the LED do? (HIGH means putting 5V out on the pin)
 
 
@@ -1440,6 +1441,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106851630}
   m_CullTransparentMesh: 0
+--- !u!114 &106851634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106851630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: ' Q1) What part of the Arduino Uno resets the ATmega microcontroller?  (1)Digital
+    Pins (2)Pin 13 LED (3)Reset Type (4)Reset Button  Q2) What is the brains of the
+    Arduino Uno?  (1)Power LED (2)Power jack (3)Microcontroller (4)Digital Pins  Q3)
+    What indicates that the Arduino Uno is receiving power?  (1)Power jack (2)Power
+    LED (3)USB Port (4)TX and RX LEDs  Q4) Would the Arduino Uno board accept voltages
+    between 7-12V?  (1)Yes (2)No  Q5)  If we start by writing HIGH out on the pin
+    connected to the LED.What will it make the LED do? (HIGH means putting 5V out
+    on the pin)  (1)Turn the LED on (2)Turn the LED off  Q6) If we start by writing
+    LOW out on the pin connected to the LED.What will it make the LED do? (LOW means
+    putting 0V out on the pin)  (1)Turn the LED on (2)Turn the LED off  Extra)  Q7)
+    What is the process for sending data to Arduino board?  Q8) Difference between
+    analog(pins and reads) and digitals(pins and reads) and why you would  use one
+    rather than the other.  Q9) What are the 5V and VIN pins for?'
+  FallbackText: 
 --- !u!1 &115895815
 GameObject:
   m_ObjectHideFlags: 0
@@ -3316,6 +3343,60 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &280303794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280303795}
+  - component: {fileID: 280303796}
+  m_Layer: 0
+  m_Name: '  A) Reset Button  '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &280303795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280303794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &280303796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280303794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: "  \nA) Reset Button  "
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "\nA) Bot\xF3n de reinicio"
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\nA) \u91CD\u7F6E\u6309\u94AE"
+    Object: {fileID: 0}
 --- !u!1 &326265165
 GameObject:
   m_ObjectHideFlags: 0
@@ -3652,7 +3733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &340930757
 Transform:
   m_ObjectHideFlags: 0
@@ -3871,6 +3952,149 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345158716}
   m_CullTransparentMesh: 0
+--- !u!1 &350553436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 350553437}
+  - component: {fileID: 350553438}
+  m_Layer: 0
+  m_Name: ' Q1) What part of the Arduino Uno resets the ATmega microcontroller?  (1)Digital
+    Pins (2)Pin 13 LED (3)Reset Type (4)Reset Button  Q2) What is the brains of the
+    Arduino Uno?  (1)Power LED (2)Power jack (3)Microcontroller (4)Digital Pins  Q3)
+    What indicates that the Arduino Uno is receiving power?  (1)Power jack (2)Power
+    LED (3)USB Port (4)TX and RX LEDs  Q4) Would the Arduino Uno board accept voltages
+    between 7-12V?  (1)Yes (2)No  Q5)  If we start by writing HIGH out on the pin
+    connected to the LED.What will it make the LED do? (HIGH means putting 5V out
+    on the pin)  (1)Turn the LED on (2)Turn the LED off  Q6) If we start by writing
+    LOW out on the pin connected to the LED.What will it make the LED do? (LOW means
+    putting 0V out on the pin)  (1)Turn the LED on (2)Turn the LED off  Extra)  Q7)
+    What is the process for sending data to Arduino board?  Q8) Difference between
+    analog(pins and reads) and digitals(pins and reads) and why you would  use one
+    rather than the other.  Q9) What are the 5V and VIN pins for?'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &350553437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350553436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &350553438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350553436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '
+
+      Q1) What part of the Arduino Uno resets the ATmega microcontroller?
+
+
+      (1)Digital Pins (2)Pin 13 LED (3)Reset Type (4)Reset Button
+
+
+      Q2) What is the brains of the Arduino Uno?
+
+
+      (1)Power LED (2)Power jack (3)Microcontroller (4)Digital Pins
+
+
+      Q3) What indicates that the Arduino Uno is receiving power?
+
+
+      (1)Power jack (2)Power LED (3)USB Port (4)TX and RX LEDs
+
+
+      Q4) Would the Arduino Uno board accept voltages between 7-12V?
+
+
+      (1)Yes (2)No
+
+
+      Q5) If we start by writing HIGH out on the pin connected to the LED.What will
+      it make the LED do? (HIGH means putting 5V out on the pin)
+
+
+      (1)Turn the LED on (2)Turn the LED off
+
+
+      Q6) If we start by writing LOW out on the pin connected to the LED.What will
+      it make the LED do? (LOW means putting 0V out on the pin)
+
+
+      (1)Turn the LED on (2)Turn the LED off
+
+
+      Extra)
+
+
+      Q7) What is the process for sending data to Arduino board?
+
+
+      Q8) Difference between analog(pins and reads) and digitals(pins and reads) and
+      why you would  use one rather than the other.
+
+
+      Q9) What are the 5V and VIN pins for?'
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "\nQ1) \xBFQu\xE9 parte del Arduino Uno restablece el microcontrolador ATmega?\n\n(1)
+      Pines digitales (2) LED del pin 13 (3) Tipo de reinicio (4) Bot\xF3n de reinicio\n\nQ2)
+      \xBFCu\xE1l es el cerebro del Arduino Uno?\n\n(1) LED de alimentaci\xF3n (2)
+      Conector de alimentaci\xF3n (3) Microcontrolador (4) Pines digitales\n\nQ3)
+      \xBFQu\xE9 indica que el Arduino Uno est\xE1 recibiendo energ\xEDa?\n\n(1) Conector
+      de alimentaci\xF3n (2) LED de alimentaci\xF3n (3) Puerto USB (4) LED TX y RX\n\nP4)
+      \xBFLa placa Arduino Uno aceptar\xEDa voltajes entre 7-12V?\n\n(1) S\xED (2)
+      No\n\nP5) Si comenzamos escribiendo HIGH en el pin conectado al LED, \xBFqu\xE9
+      har\xE1 que el LED haga? (ALTO significa poner 5V en el pin)\n\n(1) Encienda
+      el LED (2) Apague el LED\n\nP6) Si comenzamos escribiendo BAJO en el pin conectado
+      al LED. \xBFQu\xE9 har\xE1 que el LED haga? (BAJO significa poner 0V en el pin)\n\n(1)
+      Encienda el LED (2) Apague el LED\n\nExtra)\n\nQ7) \xBFCu\xE1l es el proceso
+      para enviar datos a la placa Arduino?\n\nP8) Diferencia entre anal\xF3gico (pines
+      y lecturas) y digital (pines y lecturas) y por qu\xE9 usar\xEDa uno en lugar
+      del otro.\n\nQ9) \xBFPara qu\xE9 son los pines 5V y VIN?\n"
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\nQ1) Arduino Uno\u7684\u54EA\u4E00\u90E8\u5206\u91CD\u7F6EATmega\u5FAE\u63A7\u5236\u5668?\n\n(1)\u6570\u5B57\u5F15\u811A
+      (2)\u5F15\u811A13 LED (3)\u590D\u4F4D\u7C7B\u578B (4)\u590D\u4F4D\u6309\u94AE\n\nQ2)
+      Arduino Uno\u7684\u5927\u8111\u662F\u4EC0\u4E48?\n\n(1)\u7535\u6E90LED (2)\u7535\u6E90\u63D2\u5B54
+      (3)\u5FAE\u63A7\u5236\u5668 (4)\u6570\u5B57\u5F15\u811A\n\nQ3) \u4EC0\u4E48\u8868\u660EArduino
+      Uno\u6B63\u5728\u901A\u7535?\n\n(1)\u7535\u6E90\u63D2\u5B54 (2) \u7535\u6E90LED
+      (3)USB\u7AEF\u53E3 (4)TX\u548CRX LED\n\nQ4) Arduino Uno\u5F00\u53D1\u677F\u53EF\u4EE5\u63A5\u53D77-12V\u4E4B\u95F4\u7684\u7535\u538B\u5417?\n\n(1)\u662F
+      (2)\u5426\n\nQ5) \u5982\u679C\u6211\u4EEC\u5148\u5728\u8FDE\u63A5\u5230LED\u7684\u5F15\u811A\u4E0A\u5199HIGH(\u9AD8),
+      \u8FD9\u5C06\u4F7FLED\u505A\u4EC0\u4E48? (\u9AD8\u7535\u5E73\u8868\u793A\u5C065V\u5F15\u811A\u8F93\u51FA)\n\n(1)\u6253\u5F00LED
+      (2)\u5173\u95EDLED\n\nQ6) \u5982\u679C\u6211\u4EEC\u5148\u5728\u8FDE\u63A5\u5230LED\u7684\u5F15\u811A\u4E0A\u5199\u5165LOW\u4FE1\u53F7,
+      \u8FD9\u5C06\u4F7FLED\u505A\u4EC0\u4E48? (\u4F4E\u7535\u5E73\u8868\u793A\u5C060V\u5F15\u811A\u8F93\u51FA)\n\n(1)\u6253\u5F00LED
+      (2)\u5173\u95EDLED\n\n\u989D\u5916)\n\nQ7) \u5C06\u6570\u636E\u53D1\u9001\u5230Arduino\u677F\u7684\u8FC7\u7A0B\u662F\u4EC0\u4E48?\n\nQ8)
+      \u6A21\u62DF (\u56FA\u5B9A\u548C\u8BFB\u53D6) \u548C\u6570\u5B57 (\u56FA\u5B9A\u548C\u8BFB\u53D6)
+      \u4E4B\u95F4\u7684\u533A\u522B\u4EE5\u53CA\u4E3A\u4EC0\u4E48\u8981\u4F7F\u7528\u4E00\u4E2A\u800C\u4E0D\u662F\u53E6\u4E00\u4E2A.\n\nQ9)
+      5V\u548CVIN\u5F15\u811A\u6709\u4EC0\u4E48\u7528?"
+    Object: {fileID: 0}
 --- !u!1 &359803058
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,6 +5138,7 @@ GameObject:
   - component: {fileID: 397634755}
   - component: {fileID: 397634756}
   - component: {fileID: 397634757}
+  - component: {fileID: 397634758}
   m_Layer: 5
   m_Name: Information
   m_TagString: Untagged
@@ -5064,6 +5289,26 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &397634758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397634754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: Arduino is a prototype platform based on an easy-to-use hardware
+    and software. It consists of a circuit board, which can be programed and a ready-made
+    software called Arduino IDE, which is used to write and upload the computer code
+    to the physical board.
+  FallbackText: Arduino is a prototype platform based on an easy-to-use hardware and
+    software. It consists of a circuit board, which can be programed and a ready-made
+    software called Arduino IDE, which is used to write and upload the computer code
+    to the physical board.
 --- !u!1 &401726417
 GameObject:
   m_ObjectHideFlags: 0
@@ -5730,6 +5975,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425510959}
   m_CullTransparentMesh: 0
+--- !u!1 &440335062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 440335063}
+  - component: {fileID: 440335064}
+  m_Layer: 0
+  m_Name: '  A) Yes'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440335063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440335062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &440335064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440335062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '
+
+      A) Yes'
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "\nA) s\xED"
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: '
+
+      A) Yes'
+    Object: {fileID: 0}
 --- !u!1 &460605810
 GameObject:
   m_ObjectHideFlags: 0
@@ -6849,7 +7152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moreInfoManager: {fileID: 327631310}
-  Arduino: {fileID: 1296306921}
+  Arduino: {fileID: 340930756}
   BoardDescButton: {fileID: 1587087044}
   QuizButton: {fileID: 536325297}
   MoreButton: {fileID: 1725160530}
@@ -8747,6 +9050,14 @@ Transform:
   - {fileID: 620558003}
   - {fileID: 1309219367}
   - {fileID: 926157779}
+  - {fileID: 350553437}
+  - {fileID: 280303795}
+  - {fileID: 1192165843}
+  - {fileID: 989436535}
+  - {fileID: 440335063}
+  - {fileID: 1947008753}
+  - {fileID: 2128260474}
+  - {fileID: 1377039999}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10225,7 +10536,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 6985051dca208415c86037c0f195c4ce,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3945950938934925625, guid: 6985051dca208415c86037c0f195c4ce,
         type: 3}
@@ -11154,6 +11465,7 @@ GameObject:
   - component: {fileID: 852342119}
   - component: {fileID: 852342121}
   - component: {fileID: 852342120}
+  - component: {fileID: 852342122}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -11235,7 +11547,7 @@ MonoBehaviour:
     SPI bus.\n\n13) Power LED indicator - This LED should light up when you plug your
     Arduino into a power source to indicate that your board is powered up correctly.
     If this light does not turn on, then there is something wrong with the connection.\n\n14)
-    TX and RX LEDs - TX stands for transmit) and RX stands for receive. They appear
+    TX and RX LEDs - TX stands for transmit and RX stands for receive. They appear
     in two places on the Arduino UNO board. First, at the digital pins 0 and 1, to
     indicate the pins responsible for serial communication. Second, the TX and RX
     led. The TX led flashes with different speed while sending the serial data. The
@@ -11347,6 +11659,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852342118}
   m_CullTransparentMesh: 0
+--- !u!114 &852342122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852342118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: " 1) Power USB - Arduino board can be powered by using the USB
+    cable from your computer.All you need to do is connect the USB cable to the USB
+    connection.  2) Power(Barrel Jack) - Arduino boards can be powered directly from
+    the AC mains power supply by connecting it to the Barrel Jack.  3) Voltage Regulator
+    - The function of the voltage regulator is to control the voltage given to the
+    Arduino board and stabilize the DC voltages used by the processor and other elements.
+    \ 4) Crystal Oscillator - The crystal oscillator helps Arduino in dealing with
+    time issues.How does Arduino calculate time? The answer is, by using the crystal
+    oscillator.The number printed on top of the Arduino crystal is 16.000H9H.It tells
+    us that the frequency is 16,000,000 Hertz or 16 MHz.  5, 17) Arduino Reset - You
+    can reset your Arduino board, i.e., start your program from the beginning.You
+    can reset the UNO board in two ways. First, by using the reset button(17) on the
+    board.Second, you can connect an external reset button to the Arduino pin labelled
+    RESET(5).  6) 3.3V \u2212 Supply 3.3 output volt.  7) 5V \u2212 Supply 5 output
+    volt (Most of the components used with Arduino board works fine with 3.3 volt
+    and 5 volt).  8) GND(Ground) \u2212 There are several GND pins on the Arduino,
+    any of which can be used to ground your circuit.  9) Vin \u2212 This pin also
+    can be used to power the Arduino board from an external power source, like AC
+    mains power supply.  10) Analog pins - The Arduino UNO board has six analog input
+    pins A0 through A5. These pins can read the signal from an analog sensor like
+    the humidity sensor or temperature sensor and convert it into a digital value
+    that can be read by the microprocessor.  11) Main microcontroller - Each Arduino
+    board has its own microcontroller. You can assume it as the brain of your board.
+    The main IC (integrated circuit) on the Arduino is slightly different from board
+    to board. The microcontrollers are usually of the ATMEL Company. You must know
+    what IC your board has before loading up a new program from the Arduino IDE. This
+    information is available on the top of the IC.   12) ICSP pin - Mostly, ICSP is
+    an AVR, a tiny programming header for the Arduino consisting of MOSI, MISO, SCK,
+    RESET, VCC, and GND. It is often referred to as an SPI (Serial Peripheral Interface),
+    which could be considered as an \"expansion\" of the output. Actually, you are
+    slaving the output device to the master of the SPI bus.  13) Power LED indicator
+    - This LED should light up when you plug your Arduino into a power source to indicate
+    that your board is powered up correctly. If this light does not turn on, then
+    there is something wrong with the connection.  14) TX and RX LEDs - TX stands
+    for transmit) and RX stands for receive. They appear in two places on the Arduino
+    UNO board. First, at the digital pins 0 and 1, to indicate the pins responsible
+    for serial communication. Second, the TX and RX led. The TX led flashes with different
+    speed while sending the serial data. The speed of flashing depends on the baud
+    rate used by the board. RX flashes during the receiving process.  15) Digital
+    I/O - The Arduino UNO board has 14 digital I/O pins (of which 6 provide PWM (Pulse
+    Width Modulation) output. These pins can be configured to work as input digital
+    pins to read logic values (0 or 1) or as digital output pins to drive different
+    modules like LEDs, relays, etc. The pins labeled \u201C~\u201D can be used to
+    generate PWM.  16) AREF - AREF stands for Analog Reference. It is sometimes, used
+    to set an external reference voltage (between 0 and 5 Volts) as the upper limit
+    for the analog input pins."
+  FallbackText: 
 --- !u!1 &863472701
 GameObject:
   m_ObjectHideFlags: 0
@@ -12006,6 +12377,7 @@ GameObject:
   - component: {fileID: 920503791}
   - component: {fileID: 920503792}
   - component: {fileID: 920503793}
+  - component: {fileID: 920503794}
   m_Layer: 5
   m_Name: Information
   m_TagString: Untagged
@@ -12155,6 +12527,22 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &920503794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920503790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: Please place the arduino picture in the middle of your phone screen.
+    To get the picture, please click the link button below. Press + button below to
+    see board component descriptons and quizzes
+  FallbackText: 
 --- !u!1 &920648759
 GameObject:
   m_ObjectHideFlags: 0
@@ -12733,7 +13121,7 @@ MonoBehaviour:
       LED should light up when you plug your Arduino into a power source to indicate
       that your board is powered up correctly. If this light does not turn on, then
       there is something wrong with the connection.\n\n14) TX and RX LEDs - TX stands
-      for transmit) and RX stands for receive. They appear in two places on the Arduino
+      for transmit and RX stands for receive. They appear in two places on the Arduino
       UNO board. First, at the digital pins 0 and 1, to indicate the pins responsible
       for serial communication. Second, the TX and RX led. The TX led flashes with
       different speed while sending the serial data. The speed of flashing depends
@@ -12749,100 +13137,103 @@ MonoBehaviour:
   - Language: Chinese
     Text: "\n1) Power USB - Arduino\u5F00\u53D1\u677F\u53EF\u4EE5\u901A\u8FC7\u8BA1\u7B97\u673A\u4E0A\u7684USB\u7535\u7F06\u4F9B\u7535,
       \u53EA\u9700\u5C06USB\u7535\u7F06\u8FDE\u63A5\u5230USB\u8FDE\u63A5\u5373\u53EF.\n\n2)
-      Power(Barrel Jack) - Arduino boards can be powered directly from the AC mains
-      power supply by connecting it to the Barrel Jack.\n\n3) Voltage Regulator -
-      The function of the voltage regulator is to control the voltage given to the
-      Arduino board and stabilize the DC voltages used by the processor and other
-      elements.\n\n4) Crystal Oscillator - The crystal oscillator helps Arduino in
-      dealing with time issues.How does Arduino calculate time? The answer is, by
-      using the crystal oscillator.The number printed on top of the Arduino crystal
-      is 16.000H9H.It tells us that the frequency is 16,000,000 Hertz or 16 MHz.\n\n5,
-      17) Arduino Reset - You can reset your Arduino board, i.e., start your program
-      from the beginning.You can reset the UNO board in two ways. First, by using
-      the reset button(17) on the board.Second, you can connect an external reset
-      button to the Arduino pin labelled RESET(5).\n\n6) 3.3V \u2212 Supply 3.3 output
-      volt.\n\n7) 5V \u2212 Supply 5 output volt (Most of the components used with
-      Arduino board works fine with 3.3 volt and 5 volt).\n\n8) GND(Ground) \u2212
-      There are several GND pins on the Arduino, any of which can be used to ground
-      your circuit.\n\n9) Vin \u2212 This pin also can be used to power the Arduino
-      board from an external power source, like AC mains power supply.\n\n10) Analog
-      pins - The Arduino UNO board has six analog input pins A0 through A5. These
-      pins can read the signal from an analog sensor like the humidity sensor or temperature
-      sensor and convert it into a digital value that can be read by the microprocessor.\n\n11)
-      Main microcontroller - Each Arduino board has its own microcontroller. You can
-      assume it as the brain of your board. The main IC (integrated circuit) on the
-      Arduino is slightly different from board to board. The microcontrollers are
-      usually of the ATMEL Company. You must know what IC your board has before loading
-      up a new program from the Arduino IDE. This information is available on the
-      top of the IC. \n\n12) ICSP pin - Mostly, ICSP is an AVR, a tiny programming
-      header for the Arduino consisting of MOSI, MISO, SCK, RESET, VCC, and GND. It
-      is often referred to as an SPI (Serial Peripheral Interface), which could be
-      considered as an \"expansion\" of the output. Actually, you are slaving the
-      output device to the master of the SPI bus.\n\n13) Power LED indicator - This
-      LED should light up when you plug your Arduino into a power source to indicate
-      that your board is powered up correctly. If this light does not turn on, then
-      there is something wrong with the connection.\n\n14) TX and RX LEDs - TX stands
-      for transmit) and RX stands for receive. They appear in two places on the Arduino
-      UNO board. First, at the digital pins 0 and 1, to indicate the pins responsible
-      for serial communication. Second, the TX and RX led. The TX led flashes with
-      different speed while sending the serial data. The speed of flashing depends
-      on the baud rate used by the board. RX flashes during the receiving process.\n\n15)
-      Digital I/O - The Arduino UNO board has 14 digital I/O pins (of which 6 provide
-      PWM (Pulse Width Modulation) output. These pins can be configured to work as
-      input digital pins to read logic values (0 or 1) or as digital output pins to
-      drive different modules like LEDs, relays, etc. The pins labeled \u201C~\u201D
-      can be used to generate PWM.\n\n16) AREF - AREF stands for Analog Reference.
-      It is sometimes, used to set an external reference voltage (between 0 and 5
-      Volts) as the upper limit for the analog input pins."
+      Power(Barrel Jack) - \u901A\u8FC7\u5C06Arduino\u5F00\u53D1\u677F\u8FDE\u63A5\u5230Barrel
+      Jack, \u53EF\u4EE5\u76F4\u63A5\u4ECE\u4EA4\u6D41\u5E02\u7535\u7535\u6E90\u4F9B\u7535.\n\n3)
+      Voltage Regulator - \u7A33\u538B\u5668\u7684\u529F\u80FD\u662F\u63A7\u5236\u63D0\u4F9B\u7ED9Arduino\u677F\u7684\u7535\u538B,
+      \u5E76\u7A33\u5B9A\u5904\u7406\u5668\u548C\u5176\u4ED6\u5143\u4EF6\u4F7F\u7528\u7684DC\u7535\u538B.\n\n4)
+      Crystal Oscillator - \u6676\u4F53\u632F\u8361\u5668\u53EF\u5E2E\u52A9Arduino\u5904\u7406\u65F6\u95F4\u95EE\u9898.Arduino\u5982\u4F55\u8BA1\u7B97\u65F6\u95F4?
+      \u7B54\u6848\u662F\u4F7F\u7528\u6676\u4F53\u632F\u8361\u5668.Arduino\u6676\u4F53\u9876\u90E8\u7684\u6570\u5B57\u662F16.000H9H,
+      \u5B83\u544A\u8BC9\u6211\u4EEC\u9891\u7387\u662F16,000,000\u8D6B\u5179\u621616
+      MHz.\n\n5, 17) Arduino Reset - \u60A8\u53EF\u4EE5\u91CD\u7F6EArduino\u5F00\u53D1\u677F,
+      \u5373\u4ECE\u5934\u5F00\u59CB\u8FD0\u884C\u7A0B\u5E8F. \u60A8\u53EF\u4EE5\u901A\u8FC7\u4E24\u79CD\u65B9\u5F0F\u91CD\u7F6EUNO\u5F00\u53D1\u677F.
+      \u9996\u5148, \u4F7F\u7528\u677F\u4E0A\u7684\u91CD\u7F6E\u6309\u94AE(17). \u5176\u6B21,
+      \u60A8\u53EF\u4EE5\u5C06\u5916\u90E8\u91CD\u7F6E\u6309\u94AE\u8FDE\u63A5\u5230\u6807\u6709RESET(5)\u7684Arduino\u5F15\u811A.\n\n6)
+      3.3V \u2212 \u63D0\u4F9B3.3\u8F93\u51FA\u7535\u538B.\n\n7) 5V \u2212 \u63D0\u4F9B5\u4F0F\u8F93\u51FA\u7535\u538B
+      (\u4E0EArduino\u5F00\u53D1\u677F\u4E00\u8D77\u4F7F\u7528\u7684\u5927\u591A\u6570\u7EC4\u4EF6\u57283.3\u4F0F\u548C5\u4F0F\u7535\u538B\u4E0B\u5747\u53EF\u6B63\u5E38\u5DE5\u4F5C).\n\n8)
+      GND(Ground) \u2212 Arduino\u4E0A\u6709\u591A\u4E2AGND\u5F15\u811A, \u5176\u4E2D\u4EFB\u4F55\u4E00\u4E2A\u90FD\u53EF\u7528\u4E8E\u4F7F\u7535\u8DEF\u63A5\u5730.\n\n9)
+      Vin \u2212 \u8BE5\u5F15\u811A\u4E5F\u53EF\u7528\u4E8E\u901A\u8FC7\u5916\u90E8\u7535\u6E90
+      (\u5982\u4EA4\u6D41\u5E02\u7535\u7535\u6E90) \u4E3AArduino\u677F\u4F9B\u7535.\n\n10)
+      Analog pins - Arduino UNO\u677F\u5177\u6709\u516D\u4E2A\u6A21\u62DF\u8F93\u5165\u5F15\u811AA0\u81F3A5.
+      \u8FD9\u4E9B\u5F15\u811A\u53EF\u4EE5\u8BFB\u53D6\u6765\u81EA\u6E7F\u5EA6\u4F20\u611F\u5668\u6216\u6E29\u5EA6\u4F20\u611F\u5668\u7B49\u6A21\u62DF\u4F20\u611F\u5668\u7684\u4FE1\u53F7,
+      \u5E76\u5C06\u5176\u8F6C\u6362\u4E3A\u53EF\u7531\u5FAE\u5904\u7406\u5668\u8BFB\u53D6\u7684\u6570\u5B57\u503C.\n\n11)
+      Main microcontroller - \u6BCF\u4E2AArduino\u677F\u90FD\u6709\u81EA\u5DF1\u7684\u5FAE\u63A7\u5236\u5668.
+      \u60A8\u53EF\u4EE5\u5C06\u5176\u89C6\u4E3A\u8463\u4E8B\u4F1A\u7684\u5927\u8111.
+      Arduino\u4E0A\u7684\u4E3B\u8981IC (\u96C6\u6210\u7535\u8DEF) \u5728\u677F\u4E0E\u677F\u4E4B\u95F4\u7565\u6709\u4E0D\u540C.
+      \u8FD9\u4E9B\u5FAE\u63A7\u5236\u5668\u901A\u5E38\u662FATMEL\u516C\u53F8\u7684\u4EA7\u54C1.
+      \u4ECEArduino IDE\u52A0\u8F7D\u65B0\u7A0B\u5E8F\u4E4B\u524D, \u60A8\u5FC5\u987B\u77E5\u9053\u60A8\u7684\u7535\u8DEF\u677F\u5177\u6709\u4EC0\u4E48IC.\u8BE5\u4FE1\u606F\u4F4D\u4E8EIC\u9876\u90E8.\n\n12)
+      ICSP pin - \u901A\u5E38, ICSP\u662FAVR, \u662FArduino\u7684\u5FAE\u578B\u7F16\u7A0B\u5934,
+      \u7531MOSI, MISO, SCK, RESET, VCC\u548CGND\u7EC4\u6210. \u901A\u5E38\u5C06\u5176\u79F0\u4E3ASPI
+      (\u4E32\u884C\u5916\u56F4\u63A5\u53E3),\u53EF\u4EE5\u5C06\u5176\u89C6\u4E3A\u8F93\u51FA\u7684\u201C\u6269\u5C55\".
+      \u5B9E\u9645\u4E0A, \u60A8\u662F\u5C06\u8F93\u51FA\u8BBE\u5907\u4ECE\u52A8\u5230SPI\u603B\u7EBF\u7684\u4E3B\u8BBE\u5907.\n\n13)
+      Power LED indicator - \u5F53\u60A8\u5C06Arduino\u63D2\u5165\u7535\u6E90\u65F6,
+      \u8BE5LED\u5E94\u4EAE\u8D77, \u4EE5\u6307\u793A\u60A8\u7684\u7535\u8DEF\u677F\u5DF2\u6B63\u786E\u901A\u7535.
+      \u5982\u679C\u6B64\u706F\u4E0D\u4EAE, \u5219\u8BF4\u660E\u8FDE\u63A5\u6709\u95EE\u9898.\n\n14)
+      TX and RX LEDs - TX\u4EE3\u8868\u53D1\u9001, RX\u4EE3\u8868\u63A5\u6536. \u5B83\u4EEC\u51FA\u73B0\u5728Arduino
+      UNO\u677F\u4E0A\u7684\u4E24\u4E2A\u4F4D\u7F6E. \u9996\u5148, \u5728\u6570\u5B57\u5F15\u811A0\u548C1\u5904\u6307\u793A\u8D1F\u8D23\u4E32\u884C\u901A\u4FE1\u7684\u5F15\u811A.
+      \u5176\u6B21, \u4EE5TX\u548CRX\u4E3A\u4E3B\u5BFC. \u53D1\u9001\u4E32\u884C\u6570\u636E\u65F6,
+      TX LED\u4EE5\u4E0D\u540C\u7684\u901F\u5EA6\u95EA\u70C1. \u95EA\u70C1\u7684\u901F\u5EA6\u53D6\u51B3\u4E8E\u5F00\u53D1\u677F\u4F7F\u7528\u7684\u6CE2\u7279\u7387.
+      \u63A5\u6536\u8FC7\u7A0B\u4E2D, RX\u95EA\u70C1. \n\n15) Digital I/O - Arduino
+      UNO\u677F\u5177\u670914\u4E2A\u6570\u5B57I / O\u5F15\u811A \u5176\u4E2D6\u4E2A\u63D0\u4F9BPWM
+      (\u8109\u51B2\u5BBD\u5EA6\u8C03\u5236) \u8F93\u51FA. \u8FD9\u4E9B\u5F15\u811A\u53EF\u4EE5\u914D\u7F6E\u4E3A\u7528\u4F5C\u8F93\u5165\u6570\u5B57\u5F15\u811A\u4EE5\u8BFB\u53D6\u903B\u8F91\u503C
+      (0\u62161) \u6216\u7528\u4F5C\u6570\u5B57\u8F93\u51FA\u5F15\u811A. \u9A71\u52A8LED,
+      \u7EE7\u7535\u5668\u7B49\u4E0D\u540C\u7684\u6A21\u5757. \u6807\u6709\"\u301C\"\u7684\u5F15\u811A\u53EF\u7528\u4E8E\u751F\u6210PWM.\n\n16)
+      AREF - AREF\u4EE3\u8868\u6A21\u62DF\u53C2\u8003. \u6709\u65F6, \u5B83\u7528\u4E8E\u5C06\u5916\u90E8\u53C2\u8003\u7535\u538B
+      (0\u81F35 V) \u8BBE\u7F6E\u4E3A\u6A21\u62DF\u8F93\u5165\u5F15\u811A\u7684\u4E0A\u9650."
     Object: {fileID: 0}
   - Language: Spanish
     Text: "\n1) Power USB - La placa Arduino se puede alimentar mediante el cable
       USB de su computadora. Todo lo que necesita hacer es conectar el cable USB a
-      la conexi\xF3n USB.\n\n2) Power(Barrel Jack) - Arduino boards can be powered
-      directly from the AC mains power supply by connecting it to the Barrel Jack.\n\n3)
-      Voltage Regulator - The function of the voltage regulator is to control the
-      voltage given to the Arduino board and stabilize the DC voltages used by the
-      processor and other elements.\n\n4) Crystal Oscillator - The crystal oscillator
-      helps Arduino in dealing with time issues.How does Arduino calculate time? The
-      answer is, by using the crystal oscillator.The number printed on top of the
-      Arduino crystal is 16.000H9H.It tells us that the frequency is 16,000,000 Hertz
-      or 16 MHz.\n\n5, 17) Arduino Reset - You can reset your Arduino board, i.e.,
-      start your program from the beginning.You can reset the UNO board in two ways.
-      First, by using the reset button(17) on the board.Second, you can connect an
-      external reset button to the Arduino pin labelled RESET(5).\n\n6) 3.3V \u2212
-      Supply 3.3 output volt.\n\n7) 5V \u2212 Supply 5 output volt (Most of the components
-      used with Arduino board works fine with 3.3 volt and 5 volt).\n\n8) GND(Ground)
-      \u2212 There are several GND pins on the Arduino, any of which can be used to
-      ground your circuit.\n\n9) Vin \u2212 This pin also can be used to power the
-      Arduino board from an external power source, like AC mains power supply.\n\n10)
-      Analog pins - The Arduino UNO board has six analog input pins A0 through A5.
-      These pins can read the signal from an analog sensor like the humidity sensor
-      or temperature sensor and convert it into a digital value that can be read by
-      the microprocessor.\n\n11) Main microcontroller - Each Arduino board has its
-      own microcontroller. You can assume it as the brain of your board. The main
-      IC (integrated circuit) on the Arduino is slightly different from board to board.
-      The microcontrollers are usually of the ATMEL Company. You must know what IC
-      your board has before loading up a new program from the Arduino IDE. This information
-      is available on the top of the IC. \n\n12) ICSP pin - Mostly, ICSP is an AVR,
-      a tiny programming header for the Arduino consisting of MOSI, MISO, SCK, RESET,
-      VCC, and GND. It is often referred to as an SPI (Serial Peripheral Interface),
-      which could be considered as an \"expansion\" of the output. Actually, you are
-      slaving the output device to the master of the SPI bus.\n\n13) Power LED indicator
-      - This LED should light up when you plug your Arduino into a power source to
-      indicate that your board is powered up correctly. If this light does not turn
-      on, then there is something wrong with the connection.\n\n14) TX and RX LEDs
-      - TX stands for transmit) and RX stands for receive. They appear in two places
-      on the Arduino UNO board. First, at the digital pins 0 and 1, to indicate the
-      pins responsible for serial communication. Second, the TX and RX led. The TX
-      led flashes with different speed while sending the serial data. The speed of
-      flashing depends on the baud rate used by the board. RX flashes during the receiving
-      process.\n\n15) Digital I/O - The Arduino UNO board has 14 digital I/O pins
-      (of which 6 provide PWM (Pulse Width Modulation) output. These pins can be configured
-      to work as input digital pins to read logic values (0 or 1) or as digital output
-      pins to drive different modules like LEDs, relays, etc. The pins labeled \u201C~\u201D
-      can be used to generate PWM.\n\n16) AREF - AREF stands for Analog Reference.
-      It is sometimes, used to set an external reference voltage (between 0 and 5
-      Volts) as the upper limit for the analog input pins."
+      la conexi\xF3n USB.\n\n2) Power(Barrel Jack) - Las placas Arduino se pueden
+      alimentar directamente de la fuente de alimentaci\xF3n de CA conect\xE1ndola
+      al Jack de barril.\n\n3) Voltage Regulator - La funci\xF3n del regulador de
+      voltaje es controlar el voltaje dado a la placa Arduino y estabilizar los voltajes
+      de CC utilizados por el procesador y otros elementos.\n\n4) Crystal Oscillator
+      - El oscilador de cristal ayuda a Arduino a resolver problemas de tiempo. \xBFC\xF3mo
+      calcula Arduino el tiempo? La respuesta es, usando el oscilador de cristal.
+      El n\xFAmero impreso en la parte superior del cristal Arduino es 16,000H9H.
+      Nos dice que la frecuencia es 16,000,000 Hertz o 16 MHz.\n\n5, 17) Arduino Reset
+      - Puede restablecer su placa Arduino, es decir, iniciar su programa desde el
+      principio. Puede restablecer la placa UNO de dos maneras. Primero, usando el
+      bot\xF3n de reinicio (17) en la placa. Segundo, puede conectar un bot\xF3n de
+      reinicio externo al pin Arduino etiquetado como RESET (5).\n\n6) 3.3V \u2212
+      Suministro de 3,3 voltios de salida.\n\n7) 5V \u2212 Suministre 5 voltios de
+      salida (la mayor\xEDa de los componentes utilizados con la placa Arduino funciona
+      bien con 3,3 voltios y 5 voltios).\n\n8) GND(Ground) \u2212 Hay varios pines
+      GND en el Arduino, cualquiera de los cuales puede usarse para conectar a tierra
+      su circuito.\n\n9) Vin \u2212 Este pin tambi\xE9n se puede usar para alimentar
+      la placa Arduino desde una fuente de alimentaci\xF3n externa, como la fuente
+      de alimentaci\xF3n de CA.\n\n10) Analog pins - La placa Arduino UNO tiene seis
+      pines de entrada anal\xF3gica A0 a A5. Estos pines pueden leer la se\xF1al de
+      un sensor anal\xF3gico como el sensor de humedad o el sensor de temperatura
+      y convertirlo en un valor digital que pueda leer el microprocesador.\n\n11)
+      Main microcontroller - Cada placa Arduino tiene su propio microcontrolador.
+      Puedes asumirlo como el cerebro de tu tablero. El IC principal (circuito integrado)
+      en el Arduino es ligeramente diferente de placa a placa. Los microcontroladores
+      son generalmente de la compa\xF1\xEDa ATMEL. Debe saber qu\xE9 IC tiene su placa
+      antes de cargar un nuevo programa desde el IDE de Arduino. Esta informaci\xF3n
+      est\xE1 disponible en la parte superior del IC.\n\n12) ICSP pin - Principalmente,
+      ICSP es un AVR, un peque\xF1o encabezado de programaci\xF3n para Arduino que
+      consiste en MOSI, MISO, SCK, RESET, VCC y GND. A menudo se le conoce como SPI
+      (interfaz perif\xE9rica en serie), que podr\xEDa considerarse como una \"expansi\xF3n\"
+      de la salida. En realidad, est\xE1 esclavizando el dispositivo de salida al
+      maestro del bus SPI.\n\n13) Power LED indicator - Este LED deber\xEDa encenderse
+      cuando conecte su Arduino a una fuente de alimentaci\xF3n para indicar que su
+      placa est\xE1 encendida correctamente. Si esta luz no se enciende, entonces
+      hay algo mal con la conexi\xF3n.\n\n14) TX and RX LEDs - TX significa transmisi\xF3n
+      y RX significa recepci\xF3n. Aparecen en dos lugares en el tablero de Arduino
+      UNO. Primero, en los pines digitales 0 y 1, para indicar los pines responsables
+      de la comunicaci\xF3n en serie. En segundo lugar, el TX y RX llevaron. El LED
+      TX parpadea con diferente velocidad mientras env\xEDa los datos en serie. La
+      velocidad del parpadeo depende de la velocidad en baudios utilizada por la placa.
+      RX parpadea durante el proceso de recepci\xF3n.\n\n15) Digital I/O - La placa
+      Arduino UNO tiene 14 pines de E / S digitales, de los cuales 6 proporcionan
+      salida PWM (modulaci\xF3n de ancho de pulso). Estos pines se pueden configurar
+      para que funcionen como pines digitales de entrada para leer valores l\xF3gicos
+      (0 o 1) o como pines de salida digital para controlar diferentes m\xF3dulos
+      como LED, rel\xE9s, etc. Los pines con la etiqueta \"~\" se pueden usar para
+      generar PWM.\n\n16) AREF -AREF significa referencia anal\xF3gica. A veces, se
+      usa para establecer un voltaje de referencia externo (entre 0 y 5 voltios) como
+      el l\xEDmite superior para los pines de entrada anal\xF3gica."
     Object: {fileID: 0}
 --- !u!1 &928729305
 GameObject:
@@ -12905,8 +13296,9 @@ MonoBehaviour:
       c\xF3digo de la computadora en la placa f\xEDsica."
     Object: {fileID: 0}
   - Language: Chinese
-    Text: "Arduino\u662F\u57FA\u4E8E\u6613\u4E8E\u4F7F\u7528\u7684\u786C\u4EF6\u548C\u8F6F\u4EF6\u7684\u539F\u578B\u5E73\u53F0\u3002\u5B83\u7531\u4E00\u5757\u53EF\u8FDB\u884C\u7F16\u7A0B\u7684\u7535\u8DEF\u677F\u548C\u4E00\u4E2A\u79F0\u4E3AArduino
-      IDE\u7684\u73B0\u6210\u8F6F\u4EF6\u7EC4\u6210\uFF0C\u8BE5\u8F6F\u4EF6\u7528\u4E8E\u5C06\u8BA1\u7B97\u673A\u4EE3\u7801\u7F16\u5199\u5E76\u4E0A\u4F20\u5230\u7269\u7406\u677F\u4E0A\u3002"
+    Text: "Arduino\u662F\u57FA\u4E8E\u6613\u4E8E\u4F7F\u7528\u7684\u786C\u4EF6\u548C\u8F6F\u4EF6\u7684\u539F\u578B\u5E73\u53F0.
+      \u5B83\u7531\u4E00\u5757\u53EF\u8FDB\u884C\u7F16\u7A0B\u7684\u7535\u8DEF\u677F\u548C\u4E00\u4E2A\u79F0\u4E3AArduino
+      IDE\u7684\u73B0\u6210\u8F6F\u4EF6\u7EC4\u6210, \u8BE5\u8F6F\u4EF6\u7528\u4E8E\u5C06\u8BA1\u7B97\u673A\u4EE3\u7801\u7F16\u5199\u5E76\u4E0A\u4F20\u5230\u7269\u7406\u677F\u4E0A."
     Object: {fileID: 0}
 --- !u!1 &929394360
 GameObject:
@@ -13862,6 +14254,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971564943}
   m_CullTransparentMesh: 0
+--- !u!1 &989436534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989436535}
+  - component: {fileID: 989436536}
+  m_Layer: 0
+  m_Name: '  A) Power LED'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &989436535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989436534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989436536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989436534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '
+
+      A) Power LED'
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: '
+
+      A) LED de encendido'
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\nA) \u7535\u6E90\u6307\u793A\u706F"
+    Object: {fileID: 0}
 --- !u!1 &1010247358
 GameObject:
   m_ObjectHideFlags: 0
@@ -15424,6 +15874,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176976998}
   m_CullTransparentMesh: 0
+--- !u!1 &1192165842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192165843}
+  - component: {fileID: 1192165844}
+  m_Layer: 0
+  m_Name: '  A) Microcontroller'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1192165843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192165842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1192165844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192165842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '
+
+      A) Microcontroller'
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: '
+
+      A) microcontrolador'
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\nA) \u5355\u7247\u673A"
+    Object: {fileID: 0}
 --- !u!1 &1210496005
 GameObject:
   m_ObjectHideFlags: 0
@@ -17119,6 +17627,7 @@ GameObject:
   - component: {fileID: 1285864842}
   - component: {fileID: 1285864844}
   - component: {fileID: 1285864843}
+  - component: {fileID: 1285864845}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -17266,6 +17775,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285864841}
   m_CullTransparentMesh: 0
+--- !u!114 &1285864845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285864841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: Board Description
+  FallbackText: 
 --- !u!1 &1287015819
 GameObject:
   m_ObjectHideFlags: 0
@@ -17720,11 +18243,32 @@ MonoBehaviour:
   Use:
     Filter: 0
     IgnoreStartedOverGui: 1
-    RequiredFingerCount: 1
+    RequiredFingerCount: 0
     RequiredMouseButtons: 0
     RequiredSelectable: {fileID: 0}
   Axis: {x: 0, y: 0, z: -1}
   Space: 1
+--- !u!114 &1296306924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296306921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Dampening: -1
+  remainingTranslation: {x: 0, y: 0, z: 0}
 --- !u!1 &1309219366
 GameObject:
   m_ObjectHideFlags: 0
@@ -18939,6 +19483,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369434194}
   m_CullTransparentMesh: 0
+--- !u!1 &1377039998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1377039999}
+  - component: {fileID: 1377040000}
+  m_Layer: 0
+  m_Name: '  Discuss with your group or classmates'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1377039999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377039998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1377040000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377039998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '
+
+      Discuss with your group or classmates'
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: "\nDiscuta con su grupo o compa\xF1eros de clase"
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\n\u4E0E\u60A8\u7684\u5C0F\u7EC4\u6216\u540C\u5B66\u8BA8\u8BBA"
+    Object: {fileID: 0}
 --- !u!1 &1386022246
 GameObject:
   m_ObjectHideFlags: 0
@@ -19979,6 +20579,7 @@ GameObject:
   - component: {fileID: 1414240280}
   - component: {fileID: 1414240281}
   - component: {fileID: 1414240282}
+  - component: {fileID: 1414240283}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -20126,6 +20727,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1414240283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414240279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: How To Use ?
+  FallbackText: 
 --- !u!1 &1469163391
 GameObject:
   m_ObjectHideFlags: 0
@@ -21753,7 +22368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moreInfoManager: {fileID: 327631310}
-  Arduino: {fileID: 1296306921}
+  Arduino: {fileID: 340930756}
   PowerUSB: {fileID: 951172502}
   Power: {fileID: 1280918664}
   VoltageRegulator: {fileID: 534965187}
@@ -23459,6 +24074,7 @@ GameObject:
   - component: {fileID: 1779315111}
   - component: {fileID: 1779315113}
   - component: {fileID: 1779315112}
+  - component: {fileID: 1779315114}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -23606,6 +24222,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779315110}
   m_CullTransparentMesh: 0
+--- !u!114 &1779315114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779315110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: Quizzes
+  FallbackText: 
 --- !u!1 &1793508064
 GameObject:
   m_ObjectHideFlags: 0
@@ -25220,6 +25850,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943649170}
   m_CullTransparentMesh: 0
+--- !u!1 &1947008752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1947008753}
+  - component: {fileID: 1947008754}
+  m_Layer: 0
+  m_Name: '  A) Turn the LED on'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1947008753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947008752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1947008754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947008752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '
+
+      A) Turn the LED on'
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: '
+
+      A) Encienda el LED'
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\nA) \u5F00\u542FLED"
+    Object: {fileID: 0}
 --- !u!1 &1963842843
 GameObject:
   m_ObjectHideFlags: 0
@@ -25703,7 +26391,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001236539}
   m_CullTransparentMesh: 0
---- !u!21 &2036004126
+--- !u!21 &2012103037
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -25712,7 +26400,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'Arduino_Circuit_BoardMaterial
 
-    100306'
+    671668'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -25725,7 +26413,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 88aa0832def1481490a2e5a9a0978a4b, type: 3}
+        m_Texture: {fileID: 2800000, guid: be27cd451e25442bb380fbab220764d7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -25835,6 +26523,7 @@ GameObject:
   - component: {fileID: 2038796585}
   - component: {fileID: 2038796587}
   - component: {fileID: 2038796586}
+  - component: {fileID: 2038796588}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -25982,6 +26671,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038796584}
   m_CullTransparentMesh: 0
+--- !u!114 &2038796588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038796584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee4021ce59f313499a5cab041f02aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: Link
+  FallbackText: 
 --- !u!1 &2042423078
 GameObject:
   m_ObjectHideFlags: 0
@@ -27311,6 +28014,64 @@ Transform:
   m_Father: {fileID: 340930757}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2128260473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2128260474}
+  - component: {fileID: 2128260475}
+  m_Layer: 0
+  m_Name: '  A) Turn the LED off'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2128260474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128260473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 695696601}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128260475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128260473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: English
+    Text: '
+
+      A) Turn the LED off'
+    Object: {fileID: 0}
+  - Language: Spanish
+    Text: '
+
+      A) Apague el LED'
+    Object: {fileID: 0}
+  - Language: Chinese
+    Text: "\nA) \u5173\u95EDLED"
+    Object: {fileID: 0}
 --- !u!1 &2131864199
 GameObject:
   m_ObjectHideFlags: 0
