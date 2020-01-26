@@ -1,24 +1,22 @@
 ﻿<Properties StartupConfiguration="{A349EAD7-6CBA-22C2-AE9C-AA487736329F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Lean/Touch/Examples/Scripts/LeanTwistRotateAxis.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Lean/Localization/Scripts/LeanLocalization.cs">
     <Files>
-      <File FileName="Assets/Lean/Touch/Scripts/LeanTouch.cs" Line="329" Column="1" IsPinned="True" />
-      <File FileName="Assets/Plugins/NativeGallery/Android/NGPermissionCallbackAndroid.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="Assets/AREducation/AREduArduino/Scripts/ArduinoBoardDescUI.cs" Line="37" Column="29" IsPinned="True" />
-      <File FileName="Assets/AREducation/AREduMotherboard/Scripts/MotherBoardDescUI.cs" Line="13" Column="34" />
-      <File FileName="Assets/AREducation/AREduMotherboard/Scripts/MotherBoardQuizzesUI.cs" Line="170" Column="20" />
-      <File FileName="Assets/AREducation/Scripts/NativeGalleryPlugin.cs" Line="25" Column="6" />
-      <File FileName="Assets/AREducation/AREduSortingAlgorithm/Scripts/CardUIManager.cs" Line="14" Column="35" />
-      <File FileName="Assets/AREducation/AREduSortingAlgorithm/Scripts/SortingAlgorithmMainUI.cs" Line="13" Column="43" />
-      <File FileName="Assets/AREducation/AREduArduino/Scripts/ArduinoQuizzesUI.cs" Line="9" Column="1" />
-      <File FileName="Assets/AREducation/AREduMotherboard/Scripts/MotherBoardInfoScreenUI.cs" Line="78" Column="112" />
-      <File FileName="Assets/Lean/READ ME.txt" Line="8" Column="1" />
-      <File FileName="Assets/Scripts/DropdownManager.cs" Line="9" Column="6" />
-      <File FileName="Assets/Lean/Localization/Scripts/LeanLocalization.cs" Line="184" Column="33" />
-      <File FileName="Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedText.cs" Line="20" Column="4" />
-      <File FileName="Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedRenderer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Lean/Localization/Scripts/LeanLanguage.cs" Line="1" Column="1" />
-      <File FileName="Assets/AREducation/Scripts/AREduMainUI.cs" Line="102" Column="1" />
-      <File FileName="Assets/Lean/Touch/Examples/Scripts/LeanTwistRotateAxis.cs" Line="1" Column="1" />
+      <File FileName="Assets/Lean/Localization/Scripts/LeanLocalization.cs" Line="3" Column="1" />
+      <File FileName="Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedText.cs" Line="5" Column="1" NotebookId="1" />
+      <File FileName="Assets/Lean/Localization/Scripts/LeanTranslation.cs" NotebookId="1" />
+      <File FileName="Assets/Lean/Localization/Scripts/LeanPhrase.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Scripts/Location/ILocationProvider.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Scripts/ARLocation.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Scripts/Location/AbstractLocationProvider.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/ARLocationConfigInspector.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/OverrideAltitudeDataDrawer.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/LocationPropertyDataDrawer.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/LocationPathInspector.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/GameObjectMenuItems.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/DefineSymbolsManager.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/DefineSymbols.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Editor/ARLocationProviderInspector.cs" NotebookId="1" />
+      <File FileName="Assets/ARLocation/Scripts/ScriptableObjects/ARLocationConfig.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,25 +30,23 @@
                 <Node name="AREduMotherboard" expanded="True">
                   <Node name="Scripts" expanded="True" />
                 </Node>
-                <Node name="AREduSortingAlgorithm" expanded="True">
-                  <Node name="Scripts" expanded="True" />
+                <Node name="AREduSortingAlgorithm" expanded="True" />
+              </Node>
+              <Node name="ARLocation" expanded="True">
+                <Node name="Editor" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="Components" expanded="True" />
+                  <Node name="Location" expanded="True" />
+                  <Node name="ScriptableObjects" expanded="True" />
                 </Node>
-                <Node name="Scripts" expanded="True" />
               </Node>
               <Node name="Fonts" expanded="True" />
               <Node name="Lean" expanded="True">
                 <Node name="Localization" expanded="True">
                   <Node name="Scripts" expanded="True">
                     <Node name="Behaviours" expanded="True" />
+                    <Node name="LeanLocalization.cs" selected="True" />
                   </Node>
-                </Node>
-                <Node name="Touch" expanded="True">
-                  <Node name="Examples" expanded="True">
-                    <Node name="Scripts" expanded="True">
-                      <Node name="LeanTwistRotateAxis.cs" selected="True" />
-                    </Node>
-                  </Node>
-                  <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
               <Node name="Plugins" expanded="True">
@@ -59,7 +55,9 @@
                   <Node name="Editor" expanded="True" />
                 </Node>
               </Node>
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="Touch" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
